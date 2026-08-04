@@ -1,29 +1,77 @@
-title: Judy Li
-email: cxlee2010@163.com
-
-description: >
+# ==========================================
+# Site Settings (SEO & Metadata)
+# ==========================================
+title: "Judy Li"
+name: "Judy Li"
+email: "cxlee2010@163.com"
+description: >-
   Technical Documentation Leader, AI Explorer, and lifelong learner.
   Sharing insights on technical communication, knowledge management,
   AI agents, MCP, and the future of intelligent content.
 
-github_username: see-world
+# If using GitHub Pages, replace with your custom domain or github.io link
+url: "https://see-world.github.io" 
+baseurl: "" # Leave empty if your site is at the root of your domain
 
-minimal_mistakes_skin: default
-search: true
+# ==========================================
+# Theme & Appearance
+# ==========================================
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # Options: air, aqua, contrast, dark, dirt, neon, plum, sunrise, etc.
+
+# Site Icons
+favicon: "/assets/images/favicon.ico" # Highly recommended to add a favicon
+
+# ==========================================
+# Localization & Parsing
+# ==========================================
+locale: "en-US"
+timezone: "Asia/Hong_Kong"
 
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
+highlighter: rouge
+kramdown:
+  input: GFM # GitHub Flavored Markdown (essential for tech writers)
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true # Enables line numbers for code blocks
 
-permalink: /:categories/:title/
+# ==========================================
+# Navigation & Search
+# ==========================================
+search: true
+search_placeholder: "Search articles..."
+words_per_minute: 200 # For accurate reading time calculation
 
+# ==========================================
+# Pagination & Archive Pages
+# ==========================================
 paginate: 5
 paginate_path: /page:num/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
-timezone: Asia/Hong_Kong
-
+# ==========================================
+# Build Settings
+# ==========================================
 include:
   - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .github/
 
+# ==========================================
+# Plugins
+# ==========================================
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -32,38 +80,43 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# ==========================================
+# Author Profile (Fixed Indentation & Formatting)
+# ==========================================
 author:
-
-avatar: "/assets/images/profile.jpg"
-bio: >
-Technical Documentation Leader<br>
-AI Explorer<br>
-Knowledge Management Advocate
+  name: "Judy Li"
+  avatar: "/assets/images/profile.jpg"
+  bio: |
+    Technical Documentation Leader
+    AI Explorer
+    Knowledge Management Advocate
   location: "Guangdong, China"
-
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/judylcx/"
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/see-world"
-
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:cxlee2010@163.com"
 
+# ==========================================
+# Footer Links
+# ==========================================
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/judylcx/"
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/see-world"
 
+# ==========================================
+# Defaults for Front Matter
+# ==========================================
 defaults:
   # Blog posts
   - scope:
@@ -73,10 +126,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: false # Set to true if you set up Disqus/Giscus later
       share: true
       related: true
-
+      show_date: true
   # Pages
   - scope:
       path: "_pages"
@@ -84,11 +137,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-
-tag_archive:
-  type: liquid
-  path: /tags/
