@@ -9,18 +9,15 @@ description: >-
   Sharing insights on technical communication, knowledge management,
   AI agents, MCP, and the future of intelligent content.
 
-# If using GitHub Pages, replace with your custom domain or github.io link
-url: "https://see-world.github.io" 
-baseurl: "" # Leave empty if your site is at the root of your domain
+# Critical: baseurl must match your repository name
+url: "https://see-world.github.io"
+baseurl: "/judy.li"
 
 # ==========================================
 # Theme & Appearance
 # ==========================================
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # Options: air, aqua, contrast, dark, dirt, neon, plum, sunrise, etc.
-
-# Site Icons
-favicon: "/assets/images/favicon.ico" # Highly recommended to add a favicon
+minimal_mistakes_skin: "default" # Options: air, aqua, contrast, dark, dirt, neon, plum, sunrise
 
 # ==========================================
 # Localization & Parsing
@@ -31,23 +28,24 @@ timezone: "Asia/Hong_Kong"
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM # GitHub Flavored Markdown (essential for tech writers)
+  input: GFM # GitHub Flavored Markdown (tables, task lists, autolinks)
   hard_wrap: false
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
-      line_numbers: true # Enables line numbers for code blocks
+      line_numbers: true
 
 # ==========================================
 # Navigation & Search
 # ==========================================
 search: true
 search_placeholder: "Search articles..."
-words_per_minute: 200 # For accurate reading time calculation
+words_per_minute: 200
 
 # ==========================================
-# Pagination & Archive Pages
+# Permalinks, Pagination & Archives
 # ==========================================
+permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
 category_archive:
@@ -73,6 +71,7 @@ exclude:
 # Plugins
 # ==========================================
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -81,7 +80,7 @@ plugins:
   - jekyll-include-cache
 
 # ==========================================
-# Author Profile (Fixed Indentation & Formatting)
+# Author Profile (Sidebar)
 # ==========================================
 author:
   name: "Judy Li"
@@ -115,7 +114,7 @@ footer:
       url: "https://github.com/see-world"
 
 # ==========================================
-# Defaults for Front Matter
+# Front Matter Defaults
 # ==========================================
 defaults:
   # Blog posts
@@ -126,7 +125,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false # Set to true if you set up Disqus/Giscus later
+      comments: false
       share: true
       related: true
       show_date: true
