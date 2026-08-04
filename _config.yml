@@ -33,10 +33,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Judy Li"
-  avatar: "/assets/images/profile.jpg"
-  bio: >
-Head of Technical Documentation China<br>
+name: "Judy Li"
+avatar: "/assets/images/profile.jpg"
+bio: >
+Technical Documentation Leader<br>
 AI Explorer<br>
 Knowledge Management Advocate
   location: "Guangdong, China"
