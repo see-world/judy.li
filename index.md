@@ -10,12 +10,16 @@ header:
 ---
 
 # Knowledge Governance for the AI Era
-
+ 
 Building trusted knowledge foundations for AI-ready organizations.
-
+ 
 **Documentation Leadership • Knowledge Systems • AI Transformation**
-
-[Explore Knowledge Governance]({{ '/knowledge-governance/' | relative
+ 
+{{ '/knowledge-governance/' | relative_url }}{: .btn .btn--primary }
+ 
+{{ '/assets/images/governance-framework.svg' | relative_url }}
+ 
+> Organizations do not become AI-ready by deploying models. They become AI-ready by governing knowledge.
 ---
 
 ## Focus Areas
