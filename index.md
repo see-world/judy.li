@@ -40,10 +40,9 @@ Applying AI responsibly to enterprise knowledge.
 
 {% for post in site.posts limit:5 %}
 
-### [{{ post.title }}]({{ post.url {{ post.excerpt }}
+### [{{ post.title }}]({{ post.url | relative_url| date: "%B %d, %Y" }}*
 
-[Read article relative_url }}
+{{ post.excerpt }}
 
----
+[Read article →]({{ post.url | relative_url }})
 
-{% endfor %}
