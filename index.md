@@ -13,6 +13,14 @@ Documentation Leadership • Knowledge Systems • AI Transformation
 
 ---
 
+## About
+
+I help organizations transform documentation, knowledge, and governance practices into scalable foundations for AI-powered experiences.
+
+My focus areas include Knowledge Governance, Knowledge Systems, Documentation Leadership, and AI-enabled information architecture.
+
+---
+
 ## Core Expertise
 
 ### Knowledge Governance
@@ -21,21 +29,29 @@ Ownership, quality, lifecycle management, accountability, and trust.
 
 ### Knowledge Systems
 
-Transforming content into organizational intelligence.
+Transforming information assets into organizational intelligence.
 
 ### Documentation Leadership
 
-Building documentation practices that scale globally.
+Building documentation organizations that scale globally.
 
 ### AI & Knowledge
 
-Exploring AI agents, MCP, RAG, and intelligent knowledge ecosystems.
+Exploring MCP, AI agents, RAG, and intelligent knowledge ecosystems.
 
 ---
 
 > AI is not primarily a model problem.
 >
 > AI is a knowledge problem.
+
+---
+
+## Featured Insight
+
+### /judy.li/2026/08/04/knowledge-governance-foundation/
+
+The quality of AI-generated outputs ultimately depends on the quality of the underlying knowledge.
 
 ---
 
@@ -49,5 +65,8 @@ Exploring AI agents, MCP, RAG, and intelligent knowledge ecosystems.
 
 {{ post.excerpt }}
 
-{% endfor %}
+{{ post.url | relative_url }}
 
+---
+
+{% endfor %}
