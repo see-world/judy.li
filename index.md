@@ -8,11 +8,11 @@ permalink: /
 
 ## Knowledge Governance • Documentation Leadership • AI Transformation
 
-Building the bridge between documentation, governance, knowledge systems, and AI-powered information experiences.
+Building trusted knowledge foundations for AI-ready organizations.
 
 ---
 
-## Core Focus Areas
+## Core Expertise
 
 ### Knowledge Governance
 
@@ -38,7 +38,7 @@ Exploring MCP, AI Agents, RAG, and future knowledge ecosystems.
 
 ---
 
-## Latest Articles
+## Latest Insights
 
 {% for post in site.posts limit:5 %}
 ### {{ post.url | relative_url }}
