@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Governance: The Missing Foundation for AI-Ready Organizations"
-date: 2026-08-05
+date: 2026-08-04
 excerpt: "The quality of AI-generated outputs ultimately depends on the quality of the underlying knowledge. Why Knowledge Governance is becoming a strategic capability."
 categories:
   - Knowledge Governance
