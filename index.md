@@ -21,39 +21,46 @@ Building trusted knowledge foundations for AI-ready organizations.
 
 ## Focus Areas
 
-### Knowledge Governance
+### 🏛️ Knowledge Governance
+
 Ownership, quality, lifecycle management, accountability, and trust.
 
-### Knowledge Systems
+### 🧠 Knowledge Systems
+
 Transforming information assets into organizational intelligence.
 
-### AI & Knowledge
+### 🤖 AI & Knowledge
+
 Exploring MCP, AI agents, RAG, and intelligent knowledge ecosystems.
 
-### Documentation Leadership
+### 📘 Documentation Leadership
+
 Building documentation capabilities that scale globally.
+
+---
+
+## Current Series
+
+### Engineering Information Governance
+
+A practical exploration of how Document Control evolves into Information Governance and becomes a strategic capability for engineering organizations.
+
+{{ '/governance/engineering-information-governance/' | relative_url }}
 
 ---
 
 ## Featured Insight
 
-### {{ '/2026/08/04/knowledge-governance-foundation/' | relative_url }}
+### {{ '/2026/08/05/knowledge-governance-foundation/' | relative_url }}
 
 The quality of AI-generated outputs ultimately depends on the quality of the underlying knowledge.
 
 As organizations continue investing in AI, Knowledge Governance is becoming a strategic capability rather than a supporting function.
 
-{{ '/2026/08/04/knowledge-governance-foundation/' | relative_url }}
+{{ '/2026/08/05/knowledge-governance-foundation/' | relative_url }}
 
 ---
 
-## Latest Insights
-
-{% for post in site.posts limit:5 %}
-- [{{ post.rl | relative_url }}
-{% endfor %}
-
----
 
 > *AI is not primarily a model problem.*
 >
