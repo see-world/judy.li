@@ -10,76 +10,62 @@ toc: true
 
 Hello, I'm Judy Li.
 
-I am the Head of Technical Documentation in China with a passion for transforming complex information into clear, accessible, and meaningful knowledge experiences.
+I help organizations transform information into execution capability.
 
-Throughout my career, I have worked closely with engineering, product, and global teams to build documentation strategies, improve content quality, and enable users to succeed through effective knowledge sharing.
+Over the past 16+ years, I have worked across industrial automation, energy storage systems, mobile power solutions, and global product organizations. My career has evolved from technical communication to building documentation organizations, governance frameworks, and knowledge systems that support engineering, compliance, customer delivery, and business growth.
 
-## Professional Journey
+## What I Focus On
 
-My experience spans:
+- Engineering Information Governance
+- Documentation Strategy & Governance
+- Knowledge Systems & Content Operations
+- Documentation Lifecycle Management
+- Compliance & Customer-Facing Information
+- Global Collaboration & Team Development
+- AI-Enabled Documentation Transformation
 
-- Technical Documentation Leadership
-- Content Strategy and Governance
-- Knowledge Management
-- Team Development and Coaching
-- Global Collaboration
-- Process Improvement and Transformation
+## What I Believe
 
-I enjoy helping organizations scale their documentation practices while balancing customer needs, business goals, and technological innovation.
+Engineering organizations rarely struggle because of a lack of expertise.
 
-## My Strengths
+More often, challenges arise from:
 
-### Strategic Leadership
+- Information silos
+- Uncontrolled changes
+- Inconsistent documentation
+- Poor traceability
+- Knowledge that cannot scale
 
-Aligning documentation initiatives with organizational goals and building high-performing teams.
+My work focuses on solving these challenges by building systems that ensure the right information reaches the right people, at the right time, in the right context.
 
-### Technical Communication
+I see documentation not as content, but as part of an organization's information infrastructure.
 
-Translating complex technical concepts into clear, user-centered information.
+Well-governed information enables:
 
-### Knowledge Management
+- Faster execution
+- Better decisions
+- Stronger compliance
+- Reduced rework
+- Greater customer confidence
+- Sustainable organizational growth
 
-Developing structured approaches for creating, organizing, and sharing knowledge.
+## Current Interests
 
-### Global Collaboration
+I am particularly interested in the intersection of:
 
-Working across cultures and regions to support international teams and customers.
-
-## What I'm Learning
-
-I am a strong believer in continuous learning.
-
-My current areas of exploration include:
-
-- AI Agents
-- Model Context Protocol (MCP)
-- Generative AI for Documentation
-- Knowledge-Centered Content
+- Engineering Information Governance
+- Knowledge Systems
+- AI Agents & MCP
 - Documentation Automation
-- Intelligent Information Retrieval
-
-I am particularly interested in how AI can transform technical communication and help users discover information more effectively.
-
-## Speaking and Knowledge Sharing
-
-I enjoy sharing experiences and learning from the technical communication community.
-
-Topics that interest me include:
-
-- AI in Technical Communication
-- Documentation Strategy
-- Knowledge Management
-- Content Operations
-- Future Trends in Technical Writing
+- AI-Assisted Compliance Review
+- Intelligent Information Discovery
 
 ## My Vision
 
-I believe the future of documentation extends beyond static content.
+The future belongs to organizations that can scale knowledge as effectively as they scale products.
 
-My goal is to help build intelligent knowledge ecosystems that combine human expertise, structured content, and AI technologies to create better experiences for users and organizations.
+My goal is to help build information ecosystems where human expertise, structured content, governance, and AI work together to create lasting business value.
 
-## Beyond Work
-
-Outside of work, I enjoy exploring new technologies, learning from global communities, and discovering innovative ways to make knowledge more accessible.
-
-Thank you for visiting my website. I hope this space provides insights into my professional journey, interests, and ongoing learning.
+> Information maturity determines how well organizations scale.
+>
+> I am passionate about building the systems that make that scale possible.
