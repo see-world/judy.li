@@ -2,31 +2,36 @@
 layout: splash
 title: "Judy Li"
 permalink: /
-header:
-  overlay_color: "#1e3a5f"
 ---
 
 # Judy Li
 
-Head of Technical Documentation China
+## Knowledge Governance • Documentation Leadership • AI Transformation
 
-Technical Documentation Leader | AI Explorer | Knowledge Management Advocate
+Building the bridge between documentation, governance, knowledge systems, and AI-powered information experiences.
 
-Transforming complex information into clear, scalable, and intelligent knowledge experiences.
+---
 
-## Expertise
+## Core Focus Areas
 
-- Documentation Leadership
-- Content Strategy
-- Knowledge Management
-- AI-Augmented Documentation
-- Cross-Cultural Collaboration
+### Knowledge Governance
 
-## Current Learning
+Ownership, quality, lifecycle, and accountability.
 
-- AI Agents
-- Model Context Protocol (MCP)
-- Intelligent Knowledge Systems
-- Documentation Automation
+### Knowledge Systems
 
-[Read more about me]({{ site.baseurl }}/about/){: .btn .btn--primary}
+Transforming content into organizational intelligence.
+
+### Documentation Leadership
+
+Building documentation capabilities that scale.
+
+### AI & Intelligent Content
+
+Exploring MCP, AI Agents, RAG, and future knowledge ecosystems.
+
+---
+
+> AI is not primarily a model problem.
+>
+> AI is a knowledge problem.
