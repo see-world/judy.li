@@ -13,10 +13,14 @@ As organizations adopt AI, governance becomes increasingly important because AI 
 
 ## Articles
 
-{% for post in site.governance %}
+{% assign governance_posts = site.governance | sort: "title" %}
 
-### {{ post.url | relative_url }}
+{% for post in governance_posts %}
+
+### [{{ post.title }}ative_url }}
 
 {{ post.excerpt }}
+
+---
 
 {% endfor %}
