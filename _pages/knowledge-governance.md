@@ -11,9 +11,11 @@ Knowledge Governance focuses on ownership, accountability, quality, lifecycle ma
 
 As organizations adopt AI, governance becomes increasingly important because AI systems depend on the quality of the knowledge they consume.
 
+---
+
 ## Featured Series
 
-### Engineering Information Governance
+### {{ '/governance/engineering-information-governance/' | relative_url }}
 
 A practical exploration of how Document Control evolves into Information Governance and becomes a strategic capability for engineering organizations.
 
