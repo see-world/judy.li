@@ -1,12 +1,21 @@
 main:
-  - title: "Posts"
-    url: /posts/
-
-  - title: "Categories"
-    url: /categories/
-
-  - title: "Tags"
-    url: /tags/
-
   - title: "About"
     url: /about/
+
+  - title: "Knowledge Governance"
+    url: /knowledge-governance/
+
+  - title: "Frameworks"
+    url: /frameworks/
+
+  - title: "Knowledge Systems"
+    url: /knowledge-systems/
+
+  - title: "AI & Knowledge Systems"
+    url: /ai-knowledge-systems/
+
+  - title: "Speaking"
+    url: /speaking/
+
+  - title: "Contact"
+    url: /contact/
