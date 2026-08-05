@@ -19,6 +19,15 @@ As organizations adopt AI, governance becomes increasingly important because AI 
 
 A practical exploration of how Document Control evolves into Information Governance and becomes a strategic capability for engineering organizations.
 
+**Series topics include:**
+
+- What Does Document Control Really Manage?
+- Why Engineering Projects Lose Control
+- Why Is MDL the Most Important Project Document?
+- Revision Chaos
+- Configuration Management
+- Information Governance
+
 {{ '/governance/engineering-information-governance/' | relative_url }}
 
 ---
