@@ -43,15 +43,11 @@ Exploring AI agents, MCP, RAG, and intelligent knowledge ecosystems.
 
 {% for post in site.posts limit:5 %}
 
-### [{{ post.title }}ative_url }}
+### {{ post.url | relative_url }}
 
 *{{ post.date | date: "%B %d, %Y" }}*
 
 {{ post.excerpt }}
-
-[Read article relative_url }}
-
----
 
 {% endfor %}
 
