@@ -15,8 +15,7 @@ Building trusted knowledge foundations for AI-ready organizations.
 
 **Documentation Leadership • Knowledge Systems • AI Transformation**
 
-{{ '/knowledge-governance/' | relative_url }}{: .btn .btn--primary}
-
+[Explore Knowledge Governance]({{ '/knowledge-governance/' | relative
 ---
 
 ## Focus Areas
@@ -41,7 +40,7 @@ Building documentation capabilities that scale globally.
 
 ## Current Series
 
-### Engineering Information Governance
+### {{ '/governance/engineering-information-governance/' | relative_url }}
 
 A practical exploration of how Document Control evolves into Information Governance and becomes a strategic capability for engineering organizations.
 
@@ -51,16 +50,13 @@ A practical exploration of how Document Control evolves into Information Governa
 
 ## Featured Insight
 
-### {{ '/2026/08/05/knowledge-governance-foundation/' | relative_url }}
-
-The quality of AI-generated outputs ultimately depends on the quality of the underlying knowledge.
+### [Knowledge Governance: The Missing Foundation for AI-Ready Organizations quality of AI-generated outputs ultimately depends on the quality of the underlying knowledge.
 
 As organizations continue investing in AI, Knowledge Governance is becoming a strategic capability rather than a supporting function.
 
-{{ '/2026/08/05/knowledge-governance-foundation/' | relative_url }}
+[Read Article05/knowledge-governance-foundation/' | relative_url }}
 
 ---
-
 
 > *AI is not primarily a model problem.*
 >
