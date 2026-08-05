@@ -39,8 +39,7 @@ Applying AI responsibly to enterprise knowledge.
 ## Latest Insights
 
 {% for post in site.posts limit:5 %}
-### {{ post.url | relative_url }}
 
-{{ post.excerpt }}
+### [{{ post.title }}]({{ post.url | relative_urlt }}
 
 {% endfor %}
