@@ -2,39 +2,37 @@
 layout: splash
 title: "Judy Li"
 permalink: /
+
+header:
+  overlay_color: "#17324d"
+  overlay_filter: "0.4"
+
+author_profile: false
 ---
 
-# Judy Li
-
-## Knowledge Governance • Documentation Leadership • AI Transformation
+# Knowledge Governance for the AI Era
 
 Building trusted knowledge foundations for AI-ready organizations.
 
----
+Documentation Leadership • Knowledge Systems • AI Transformation
 
 ## Core Expertise
 
 ### Knowledge Governance
 
-Ownership, quality, lifecycle, and accountability.
+Governance, ownership, lifecycle, quality.
 
 ### Knowledge Systems
 
-Transforming content into organizational intelligence.
+Information architecture and knowledge design.
 
 ### Documentation Leadership
 
-Building documentation capabilities that scale.
+Building scalable documentation organizations.
 
-### AI & Intelligent Content
+### AI Transformation
 
-Exploring MCP, AI Agents, RAG, and future knowledge ecosystems.
-
----
-
-> AI is not primarily a model problem.
->
-> AI is a knowledge problem.
+Applying AI responsibly to enterprise knowledge.
 
 ---
 
