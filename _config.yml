@@ -1,5 +1,5 @@
-title: Judy Li
-email: cxlee2010@163.com
+title: "Judy Li"
+email: "cxlee2010@163.com"
 
 description: >
   Knowledge Governance, Documentation Leadership,
@@ -12,6 +12,7 @@ minimal_mistakes_skin: default
 
 search: true
 markdown: kramdown
+
 timezone: Asia/Hong_Kong
 
 include:
@@ -29,24 +30,19 @@ author:
   name: "Judy Li"
   avatar: "/assets/images/profile.jpg"
   bio: "Knowledge Governance • Documentation Leadership • AI Transformation"
-
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/judylcx/"
 
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/see-world"
-
 collections:
-  ideas:
-    output: true
-    permalink: /ideas/:path/
-
   governance:
     output: true
     permalink: /governance/:path/
+
+  ideas:
+    output: true
+    permalink: /ideas/:path/
 
   frameworks:
     output: true
@@ -59,14 +55,23 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: ideas
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      read_time: true
+
+  - scope:
+      path: ""
+      type: governance
     values:
       layout: single
       author_profile: true
 
   - scope:
       path: ""
-      type: governance
+      type: ideas
     values:
       layout: single
       author_profile: true
@@ -91,3 +96,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+paginate: 5
+paginate_path: /page:num/
+
+permalink: /:categories/:title/
+
+breadcrumbs: true
+search_full_content: true
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/see-world"
