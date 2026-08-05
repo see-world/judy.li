@@ -1,77 +1,23 @@
-# ==========================================
-# Site Settings (SEO & Metadata)
-# ==========================================
-title: "Judy Li"
-name: "Judy Li"
-email: "cxlee2010@163.com"
-description: >-
-  Technical Documentation Leader, AI Explorer, and lifelong learner.
-  Sharing insights on technical communication, knowledge management,
-  AI agents, MCP, and the future of intelligent content.
+title: Judy Li
+email: cxlee2010@163.com
 
-# Critical: baseurl must match your repository name
-url: "https://see-world.github.io"
-baseurl: "/judy.li"
+description: >
+  Knowledge Governance, Documentation Leadership,
+  Content Governance, and AI-powered Knowledge Systems.
 
-# ==========================================
-# Theme & Appearance
-# ==========================================
+github_username: see-world
+
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # Options: air, aqua, contrast, dark, dirt, neon, plum, sunrise
+minimal_mistakes_skin: default
 
-# ==========================================
-# Localization & Parsing
-# ==========================================
-locale: "en-US"
-timezone: "Asia/Hong_Kong"
-
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM # GitHub Flavored Markdown (tables, task lists, autolinks)
-  hard_wrap: false
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
-
-# ==========================================
-# Navigation & Search
-# ==========================================
 search: true
-search_placeholder: "Search articles..."
-words_per_minute: 200
+markdown: kramdown
+timezone: Asia/Hong_Kong
 
-# ==========================================
-# Permalinks, Pagination & Archives
-# ==========================================
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: /page:num/
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# ==========================================
-# Build Settings
-# ==========================================
 include:
   - _pages
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/
-  - .github/
 
-# ==========================================
-# Plugins
-# ==========================================
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -79,57 +25,66 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# ==========================================
-# Author Profile (Sidebar)
-# ==========================================
 author:
   name: "Judy Li"
   avatar: "/assets/images/profile.jpg"
-  bio: |
-    Technical Documentation Leader |
-    AI Explorer |
-    Knowledge Management Advocate
-  location: "Guangdong, China"
+  bio: "Knowledge Governance • Documentation Leadership • AI Transformation"
+
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/judylcx/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/see-world"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:cxlee2010@163.com"
 
-# ==========================================
-# Footer Links
-# ==========================================
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/judylcx/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/see-world"
 
-# ==========================================
-# Front Matter Defaults
-# ==========================================
+collections:
+  ideas:
+    output: true
+    permalink: /ideas/:path/
+
+  governance:
+    output: true
+    permalink: /governance/:path/
+
+  frameworks:
+    output: true
+    permalink: /frameworks/:path/
+
+  ai:
+    output: true
+    permalink: /ai/:path/
+
 defaults:
-  # Blog posts
   - scope:
       path: ""
-      type: posts
+      type: ideas
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-      show_date: true
-  # Pages
+
+  - scope:
+      path: ""
+      type: governance
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: frameworks
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: ai
+    values:
+      layout: single
+      author_profile: true
+
   - scope:
       path: "_pages"
       type: pages
