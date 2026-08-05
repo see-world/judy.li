@@ -15,15 +15,13 @@ Building trusted knowledge foundations for AI-ready organizations.
 
 **Documentation Leadership • Knowledge Systems • AI Transformation**
 
-[Explore Knowledge-governance/{: .btn .btn--primary}
-
 ---
 
 ## About
 
 I help organizations transform documentation, governance, and knowledge systems into scalable foundations for AI-powered experiences.
 
-My areas of focus include:
+My focus areas include:
 
 - Knowledge Governance
 - Knowledge Systems
@@ -60,26 +58,18 @@ Exploring MCP, AI agents, RAG, and intelligent knowledge ecosystems.
 
 ---
 
-## Featured Insight
-
-### [Knowledge Governance: The overnance-foundation/' | relative_url }}
-
-The quality of AI-generated outputs ultimately depends on the quality of the underlying knowledge.
-
-As organizations continue investing in AI, Knowledge Governance is becoming a strategic capability rather than a supporting function.
-
-{{ '/2026/08/04/knowledge-governance-foundation/' | relative_url }}
-
----
-
 ## Latest Insights
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit: 5 %}
 
-### [{{ post.title }}ative_url }}
+### {{ post.url | relative_url }}
 
 *{{ post.date | date: "%B %d, %Y" }}*
 
 {{ post.excerpt }}
 
-[Read Article →]({{ post.url | relative_url }}%}
+{{ post.url | relative_url }}
+
+---
+
+{% endfor %}
