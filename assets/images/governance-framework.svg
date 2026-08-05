@@ -1,0 +1,79 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .box {
+      fill: #17324d;
+      rx: 12;
+      ry: 12;
+    }
+
+    .box2 {
+      fill: #2e5d8a;
+      rx: 12;
+      ry: 12;
+    }
+
+    .box3 {
+      fill: #0f6cbd;
+      rx: 12;
+      ry: 12;
+    }
+
+    .box4 {
+      fill: #4f8f3a;
+      rx: 12;
+      ry: 12;
+    }
+
+    .label {
+      fill: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+
+    .arrow {
+      stroke: #7a8793;
+      stroke-width: 6;
+      fill: none;
+      marker-end: url(#arrowhead);
+    }
+  </style>
+
+  <defs>
+    <marker
+      id="arrowhead"
+      markerWidth="10"
+      markerHeight="7"
+      refX="8"
+      refY="3.5"
+      orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7a8793"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="60" width="200" height="100" class="box"/>
+  <text x="120" y="110" class="label">Knowledge</text>
+  <text x="120" y="140" class="label">Governance</text>
+
+  <line x1="220" y1="110" x2="290" y2="110" class="arrow"/>
+
+  <rect x="300" y="60" width="200" height="100" class="box2"/>
+  <text x="400" y="110" class="label">Knowledge</text>
+  <text x="400" y="140" class="label">Systems</text>
+
+  <line x1="500" y1="110" x2="570" y2="110" class="arrow"/>
+
+  <rect x="580" y="60" width="180" height="100" class="box3"/>
+  <text x="670" y="110" class="label">AI</text>
+  <text x="670" y="140" class="label">Readiness</text>
+
+  <line x1="760" y1="110" x2="830" y2="110" class="arrow"/>
+
+  <rect x="840" y="60" width="140" height="100" class="box4"/>
+  <text x="910" y="110" class="label">Business</text>
+  <text x="910" y="140" class="label">Value</text>
+
+</svg>
