@@ -5,17 +5,14 @@ main:
   - title: "Knowledge Governance"
     url: /knowledge-governance/
 
-  - title: "Frameworks"
-    url: /frameworks/
-
   - title: "Knowledge Systems"
     url: /knowledge-systems/
 
-  - title: "AI & Knowledge Systems"
+  - title: "AI & Knowledge"
     url: /ai-knowledge-systems/
 
-  - title: "Speaking"
-    url: /speaking/
+  - title: "Frameworks"
+    url: /frameworks/
 
   - title: "Contact"
     url: /contact/
