@@ -440,19 +440,7 @@ In the next article, we'll explore a question familiar to anyone who has worked 
 
 **Why do engineering projects lose control?**
 
-We'll examine how information issues such as:
-
-- Revision chaos
-- Information silos
-- Failed change propagation
-- Vendor document management problems
-
-often become the hidden drivers behind:
-
-- Rework
-- Delays
-- Cost overruns
-- Customer complaints
+We'll explore how information failures such as uncontrolled revisions, information silos, ineffective change communication, and poor vendor document management often lead to rework, project delays, cost overruns, and customer dissatisfaction.
 
 Many project failures are ultimately information failures.
 
