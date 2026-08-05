@@ -5,15 +5,19 @@ description: >
   Knowledge Governance, Documentation Leadership,
   Content Governance, and AI-powered Knowledge Systems.
 
-github_username: see-world
+repository: "see-world/judy.li"
+
+github_username: "see-world"
+
+github:
+  repository_url: "https://github.com/see-world/judy.li"
 
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: mint
+minimal_mistakes_skin: "mint"
 
 search: true
 markdown: kramdown
-
-timezone: Asia/Hong_Kong
+timezone: "Asia/Hong_Kong"
 
 include:
   - _pages
@@ -21,14 +25,13 @@ include:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 author:
   name: "Judy Li"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "/assets/images/judy-li.jpg"
   bio: "Knowledge Governance • Documentation Leadership • AI Transformation"
 
   links:
@@ -106,16 +109,18 @@ defaults:
       layout: single
       author_profile: true
 
-paginate: 5
-paginate_path: /page:num/
-
-permalink: /:categories/:title/
-
-breadcrumbs: true
-search_full_content: true
+permalink: /:year/:month/:day/:title/
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:cxlee2010@163.com"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/judylcx/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/see-world"
