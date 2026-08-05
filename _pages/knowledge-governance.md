@@ -17,9 +17,9 @@ As organizations adopt AI, governance becomes increasingly important because AI 
 
 {% for post in governance_posts %}
 
-### [{{ post.title }}ative_url }}
+### [{{ post.title }}]({{ post.url | relativecerpt }}
 
-{{ post.excerpt }}
+<a href="{{ post.url |_url }}
 
 ---
 
