@@ -1,4 +1,4 @@
-[---
+---
 layout: splash
 title: "Judy Li"
 permalink: /
@@ -32,13 +32,17 @@ Exploring MCP, AI Agents, RAG, and future knowledge ecosystems.
 
 ---
 
-> AI is not primarily a model problem.](https://see-world.github.io/judy.li/knowledge-governance-foundation/
-)
+> AI is not primarily a model problem.
 >
 > AI is a knowledge problem.
->
-> ## Latest Article
-8
- 
-9
-### [Knowledge Governance: The Missing Foundation for AI-Ready Organizations]({{ site.baseurl }}/2026/08/04/knowledge-governance quality of the underlying knowledge. Why Knowledge Governance is becoming a strategic capability.
+
+---
+
+## Latest Articles
+
+{% for post in site.posts limit:5 %}
+### {{ post.url | relative_url }}
+
+{{ post.excerpt }}
+
+{% endfor %}
