@@ -1,12 +1,12 @@
 main:
-- title: "About"
-url: /about/
- 
-- title: "Strengths"
-url: /strengths/
- 
-- title: "Learning"
-url: /learning/
- 
-- title: "Projects"
-url: /projects/
+  - title: "Posts"
+    url: /posts/
+
+  - title: "Categories"
+    url: /categories/
+
+  - title: "Tags"
+    url: /tags/
+
+  - title: "About"
+    url: /about/
