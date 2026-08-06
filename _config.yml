@@ -1,20 +1,25 @@
 title: "Judy Li"
 email: "cxlee2010@163.com"
 
+# IMPORTANT: GitHub Pages settings
+url: "https://see-world.github.io"
+baseurl: "/judy.li"
+
 description: >
   Knowledge Governance, Documentation Leadership,
   Content Governance, and AI-powered Knowledge Systems.
 
 repository: "see-world/judy.li"
-
 github_username: "see-world"
 
 github:
   repository_url: "https://github.com/see-world/judy.li"
 
-remote_theme: "mmistakes/minimal-mistakes"
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "mint"
 
+# Build settings
 search: true
 markdown: kramdown
 timezone: "Asia/Hong_Kong"
@@ -29,42 +34,44 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+# Author
 author:
   name: "Judy Li"
   avatar: "/assets/images/judy-li.jpg"
   bio: "Knowledge Governance • Documentation Leadership • AI Transformation"
-
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:cxlee2010@163.com"
-
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/judylcx/"
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/see-world"
 
+# Collections
 collections:
   governance:
     output: true
     permalink: /governance/:path/
-
   ideas:
     output: true
     permalink: /ideas/:path/
-
   frameworks:
     output: true
     permalink: /frameworks/:path/
-
   ai:
     output: true
     permalink: /ai/:path/
 
+# Defaults
 defaults:
+  # Posts
   - scope:
       path: ""
       type: posts
@@ -73,35 +80,47 @@ defaults:
       author_profile: true
       toc: true
       read_time: true
-
+      share: true
+      related: true
+  
+  # Governance
   - scope:
       path: ""
       type: governance
     values:
       layout: single
       author_profile: true
-
+      toc: true
+      share: true
+  
+  # Ideas
   - scope:
       path: ""
       type: ideas
     values:
       layout: single
       author_profile: true
-
+      toc: true
+  
+  # Frameworks
   - scope:
       path: ""
       type: frameworks
     values:
       layout: single
       author_profile: true
-
+      toc: true
+  
+  # AI
   - scope:
       path: ""
       type: ai
     values:
       layout: single
       author_profile: true
-
+      toc: true
+  
+  # Pages
   - scope:
       path: "_pages"
       type: pages
@@ -109,18 +128,18 @@ defaults:
       layout: single
       author_profile: true
 
+# Permalinks
 permalink: /:year/:month/:day/:title/
 
+# Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:cxlee2010@163.com"
-
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/judylcx/"
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/see-world"
