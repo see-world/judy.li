@@ -4,24 +4,16 @@ excerpt: "From Document Control to Information Governance: a practical
 framework for engineering organizations."
 ---
 
-Engineering projects are governed by information.
-
-Schedules, designs, specifications, revisions, approvals, vendor
-documentation, test reports, and as-built records all influence
-project outcomes.
-
-Yet many organizations treat Document Control as an administrative
-activity rather than a governance capability. The cost shows up late:
-in rework, in failed handover, in disputes where nobody can prove what
-was approved and when.
-
-This series traces how Document Control matures into Engineering
-Information Governance — and why that maturity is the precondition for
-any serious use of AI on engineering information.
-
-**Who this is for:** document controllers, project engineers, PMO
-leads, and engineering managers in EPC, energy, infrastructure, and
-industrial capital projects.
+- Why Information Governance Matters More Than Ever in the Age of AI
+- Why Knowledge Management Is Becoming the New Infrastructure for AI
+- From Documents to Intelligence: Rethinking Knowledge in the AI Era
+- Why Most Enterprise Knowledge Bases Fail
+- Why Large Language Models Lack Context
+- Why Organizations Need Knowledge Workflows, Not Just Chatbots
+- AI Will Not Replace Documentation Teams, but It Will Transform Them
+- MCP: Connecting AI to Enterprise Knowledge
+- Can AI Agents Become Digital Colleagues?
+- From Search to Discovery: Building the Next Generation of Knowledge Systems
 
 ---
 
@@ -44,42 +36,5 @@ industrial capital projects.
 ## Phase 2 — Core Competencies
 *The three places control is won or lost.*
 
-4. From Contract to Delivery
 
-   Translating contractual documentation obligations into an
-   executable deliverables register.
-
-5. Revision Chaos
-
-   Why revision discipline collapses, and the minimum controls that
-   hold it together.
-
-6. FAT Is Not Just Product Acceptance
-
-   Factory Acceptance Testing as a documentation gate, not only an
-   equipment gate.
-
-## Phase 3 — Advanced Capabilities
-*Beyond the document, to the asset and the supply chain.*
-
-7. Why As-Built Documentation Becomes a Nightmare
-
-   As-built failure is designed in at kickoff, not caused at closeout.
-
-8. From Document Control to Configuration Management
-
-   When the object of control shifts from the document to the
-   configuration item.
-
-9. Supplier Documentation Management
-
-   Governing information you don't produce and can't directly control.
-
-## Phase 4 — Toward AI-Ready Engineering
-*Why governance is the prerequisite, not the obstacle.*
-
-10. From Document Control to Information Governance
-
-    Metadata, structure, and provenance as the foundation for
-    machine-usable engineering information.
 ```
