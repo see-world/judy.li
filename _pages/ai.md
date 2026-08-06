@@ -18,20 +18,27 @@ AI can only be as powerful as the knowledge it consumes.
 
 ## Featured Series
 
-### [Engineering Information Governance]({{ "/governance/engineering-information-governance/" | relative_url }})
+### [From Documents to Intelligence]({{ "/ai/from-documents-to-intelligence/" | relative_url }})
 
-A practical exploration of how Document Control evolves into Information Governance and becomes a strategic capability for engineering organizations.
+Exploring how AI, knowledge systems, and information governance are transforming the way organizations create, manage, discover, and apply knowledge.
+
+From engineering information governance and knowledge management to AI agents, MCP, and intelligent workflows, this series examines what it takes to build scalable knowledge systems for the AI era.
+
 
 **Series topics include:**
 
-- What Does Document Control Really Manage?
-- Why Engineering Projects Lose Control
-- Why Is MDL the Most Important Project Document?
-- Revision Chaos
-- Configuration Management
-- Information Governance
+- Why Information Governance Matters More Than Ever in the Age of AI
+- Why Most Enterprise Knowledge Bases Fail
+- Why Knowledge Management Is Becoming the New Infrastructure for AI
+- From Document-Centric to Knowledge-Centric Organizations
+- Why Large Language Models Lack Context
+- AI Will Not Replace Documentation Teams, but It Will Transform Them
+- Why Organizations Need Knowledge Workflows, Not Just Chatbots
+- MCP and the Future of Enterprise Knowledge Systems
+- Can AI Agents Become Digital Colleagues?
+- From Search to Discovery: The Future of Knowledge Systems
 
-[Read the series]({{ "/governance/engineering-information-governance/" | relative_url }}){: .btn .btn--primary}
+[Read the series]({{ "/ai/from-documents-to-intelligence/" | relative_url }}){: .btn .btn--primary}
 
 ---
 
