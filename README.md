@@ -78,57 +78,6 @@ Topics include:
 
 ---
 
-## Featured Series
-
-### Engineering Information Governance
-
-A practical series examining how Document Control evolves into Information Governance and becomes a strategic capability for modern engineering organizations.
-
-Articles include:
-
-1. What Does Document Control Really Manage?
-2. Why Engineering Projects Lose Control
-3. Why Is the MDL the Most Important Project Document?
-4. From Contract to Delivery
-5. Revision Chaos
-6. FAT Is Not Just Product Acceptance
-7. Why As-Built Documentation Becomes a Nightmare
-8. From Document Control to Configuration Management
-9. Supplier Documentation Management
-10. From Document Control to Information Governance
-
----
-
-## Site Structure
-
-```text
-.
-├── _governance/
-│   └── Knowledge Governance and Engineering Information Governance articles
-│
-├── _ideas/
-│   └── Concepts, observations, and emerging ideas
-│
-├── _pages/
-│   └── Static pages
-│       ├── About
-│       ├── Knowledge Governance
-│       ├── Knowledge Systems
-│       ├── AI & Knowledge Systems
-│       ├── Frameworks
-│       └── Contact
-│
-├── _posts/
-│   └── Time-based articles and insights
-│
-├── assets/
-│   ├── images/
-│   └── css/
-│
-└── index.md
-```
-
----
 
 ## Philosophy
 
