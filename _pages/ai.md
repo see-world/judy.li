@@ -25,18 +25,6 @@ Exploring how AI, knowledge systems, and information governance are transforming
 From engineering information governance and knowledge management to AI agents, MCP, and intelligent workflows, this series examines what it takes to build scalable knowledge systems for the AI era.
 
 
-**Series topics include:**
-
-- Why Information Governance Matters More Than Ever in the Age of AI
-- Why Knowledge Management Is Becoming the New Infrastructure for AI
-- From Documents to Intelligence: Rethinking Knowledge in the AI Era
-- Why Most Enterprise Knowledge Bases Fail
-- Why Large Language Models Lack Context
-- Why Organizations Need Knowledge Workflows, Not Just Chatbots
-- AI Will Not Replace Documentation Teams, but It Will Transform Them
-- MCP: Connecting AI to Enterprise Knowledge
-- Can AI Agents Become Digital Colleagues?
-- From Search to Discovery: Building the Next Generation of Knowledge Systems
 
 [Read the series]({{ "/ai/from-documents-to-intelligence/" | relative_url }}){: .btn .btn--primary}
 
