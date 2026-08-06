@@ -60,7 +60,7 @@ The quality of AI-generated outputs ultimately depends on the quality of the und
 
 As organizations continue investing in AI, Knowledge Governance is becoming a strategic capability rather than a supporting function.
 
-[Read the insight]({{ "/2026/08/05/knowledge-governance-foundation/" | relative_url }}){: .btn .btn--outline}
+[Read the insight]({{ "/2026/08/04/knowledge-governance-foundation/" | relative_url }}){: .btn .btn--outline}
 
 ---
 
