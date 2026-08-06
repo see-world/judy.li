@@ -1,5 +1,5 @@
 ---
-title: "Why Engineering Projects Lose Control"
+title: "Why Engineering Projects Lose Control: The Real Problem Is Usually Information"
 excerpt: "Engineering projects rarely lose control because of engineering failures alone. More often, information loses control first."
 toc: true
 ---
