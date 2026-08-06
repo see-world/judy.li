@@ -60,20 +60,24 @@ Because engineering is fundamentally an information-driven activity.
 
 Every participant relies on information to perform their work:
 
-```text
-Requirements
-      ↓
-Design
-      ↓
-Procurement
-      ↓
-Manufacturing
-      ↓
-Construction
-      ↓
-Commissioning
-      ↓
-Acceptance
+```
+<div class="flow-diagram">
+
+<strong>Requirements</strong>
+→
+<strong>Design</strong>
+→
+<strong>Procurement</strong>
+→
+<strong>Manufacturing</strong>
+→
+<strong>Construction</strong>
+→
+<strong>Commissioning</strong>
+→
+<strong>Acceptance</strong>
+
+</div>
 ```
 
 If any part of this chain receives incorrect or outdated information, even perfect execution can produce the wrong outcome.
