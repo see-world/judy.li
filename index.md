@@ -18,7 +18,9 @@ Building trusted knowledge foundations for AI-ready organizations.
 {{ '/knowledge-governance/' | relative_url }}{: .btn .btn--primary}
 
 <p align="center">
-  {{ '/assets/images/governance-framework.svg' | relative_url }}
+  assets/images/governance-framework.svg' | relative_url }}"
+       alt="Knowledge Governance Framework"
+       style="max-width:100%;height:auto;">
 </p>
 
 > Organizations do not become AI-ready by deploying models.
