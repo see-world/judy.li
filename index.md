@@ -3,21 +3,24 @@ layout: splash
 title: "Judy Li"
 permalink: /
 author_profile: false
+classes: wide
 
 header:
   overlay_color: "#17324d"
   overlay_filter: 0.4
+  actions:
+    - label: "Explore Knowledge Governance"
+      url: /knowledge-governance/
+excerpt: "Building trusted knowledge foundations for AI-ready organizations."
 ---
 
 # Knowledge Governance for the AI Era
 
-Building trusted knowledge foundations for AI-ready organizations.
-
 **Documentation Leadership • Knowledge Systems • AI Transformation**
 
-/knowledge-governance/{: .btn .btn--primary}
+[Knowledge Governance]({{ "/knowledge-governance/" | relative_url }}){: .btn .btn--primary}
 
-/assets/images/governance-framework.svg
+![Governance framework]({{ "/assets/images/governance-framework.svg" | relative_url }})
 
 > Organizations do not become AI-ready by deploying models.
 >
@@ -27,43 +30,37 @@ Building trusted knowledge foundations for AI-ready organizations.
 
 ## Focus Areas
 
-### 🏛️ Knowledge Governance
-
+### Knowledge Governance
 Ownership, quality, lifecycle management, accountability, and trust.
 
-### 🧠 Knowledge Systems
-
+### Knowledge Systems
 Transforming information assets into organizational intelligence.
 
-### 🤖 AI & Knowledge
-
+### AI & Knowledge
 Exploring MCP, AI agents, RAG, and intelligent knowledge ecosystems.
 
-### 📘 Documentation Leadership
-
+### Documentation Leadership
 Building documentation capabilities that scale globally.
 
 ---
 
 ## Featured Series
 
-### /governance/engineering-information-governance/
-
+### Engineering Information Governance
 A practical exploration of how Document Control evolves into Information Governance and becomes a strategic capability for engineering organizations.
 
-/governance/engineering-information-governance/{: .btn .btn--primary}
+[Read the series]({{ "/governance/engineering-information-governance/" | relative_url }}){: .btn .btn--primary}
 
 ---
 
 ## Featured Insight
 
-### /2026/08/05/knowledge-governance-foundation/
-
+### Knowledge Governance Foundation
 The quality of AI-generated outputs ultimately depends on the quality of the underlying knowledge.
 
 As organizations continue investing in AI, Knowledge Governance is becoming a strategic capability rather than a supporting function.
 
-/2026/08/05/knowledge-governance-foundation/{: .btn .btn--outline}
+[Read the insight]({{ "/2026/08/05/knowledge-governance-foundation/" | relative_url }}){: .btn .btn--outline}
 
 ---
 
