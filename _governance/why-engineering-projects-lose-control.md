@@ -169,7 +169,7 @@ That is why information governance is becoming a core engineering capability rat
 
 Newcomers see the **Master Document List (MDL)** as a spreadsheet. It is the operational backbone of everything described above.
 
-Part 2 covers what an MDL is (as distinct from a document register), why it functions as the project's single source of truth, how it underwrites scope, progress, revision control and handover, the six ways MDLs fail, and how to build one that scales.
+Part 3 covers what an MDL is (as distinct from a document register), why it functions as the project's single source of truth, how it underwrites scope, progress, revision control and handover, the six ways MDLs fail, and how to build one that scales.
 
 → **[Part 3: Why the MDL Is the Most Important Document in a Project](/governance/why-mdl-is-the-most-important-document/)**
 
