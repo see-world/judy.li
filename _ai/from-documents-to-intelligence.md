@@ -1,39 +1,85 @@
-1
+---
+title: "From Documents To Intelligence"
+excerpt: "From Document Control to Information Governance: a practical
+framework for engineering organizations."
+---
 
-AI时代，工程信息治理比文档管理更重要
+Engineering projects are governed by information.
 
-2
+Schedules, designs, specifications, revisions, approvals, vendor
+documentation, test reports, and as-built records all influence
+project outcomes.
 
-为什么知识管理会成为AI时代的新基础设施
+Yet many organizations treat Document Control as an administrative
+activity rather than a governance capability. The cost shows up late:
+in rework, in failed handover, in disputes where nobody can prove what
+was approved and when.
 
-3
+This series traces how Document Control matures into Engineering
+Information Governance — and why that maturity is the precondition for
+any serious use of AI on engineering information.
 
-从文档中心到知识中心：AI正在改变信息工作的边界
+**Who this is for:** document controllers, project engineers, PMO
+leads, and engineering managers in EPC, energy, infrastructure, and
+industrial capital projects.
 
-4
+---
 
-企业真正需要的不是聊天机器人，而是知识工作流
+## Phase 1 — Cognitive Reframing
+*Seeing the discipline for what it actually is.*
 
-5
+1. [What Document Control Really Controls](/judy.li/governance/what-document-control-really-controls/)
 
-为什么大模型不缺答案，却经常缺上下文
+   Not documents — decisions, and the evidence that they were made.
 
-6
+2. [Why Engineering Projects Lose Control](/judy.li/governance/why-engineering-projects-lose-control/)
 
-AI不会取代技术文档团队，但会重塑它们
+   Loss of control is an information failure before it is a schedule
+   or cost failure.
 
-7
+3. Why the Master Document List Is the Most Important Project Document
 
-企业知识库为什么建了很多，却很少真正被使用
+   The MDL is the project's scope, expressed as deliverables.
 
-8
+## Phase 2 — Core Competencies
+*The three places control is won or lost.*
 
-MCP为什么可能成为企业知识系统的重要连接层
+4. From Contract to Delivery
 
-9
+   Translating contractual documentation obligations into an
+   executable deliverables register.
 
-AI Agent能成为技术文档工程师的“数字同事”吗？
+5. Revision Chaos
 
-10
+   Why revision discipline collapses, and the minimum controls that
+   hold it together.
 
-从搜索到发现：下一代知识系统应该长什么样？
+6. FAT Is Not Just Product Acceptance
+
+   Factory Acceptance Testing as a documentation gate, not only an
+   equipment gate.
+
+## Phase 3 — Advanced Capabilities
+*Beyond the document, to the asset and the supply chain.*
+
+7. Why As-Built Documentation Becomes a Nightmare
+
+   As-built failure is designed in at kickoff, not caused at closeout.
+
+8. From Document Control to Configuration Management
+
+   When the object of control shifts from the document to the
+   configuration item.
+
+9. Supplier Documentation Management
+
+   Governing information you don't produce and can't directly control.
+
+## Phase 4 — Toward AI-Ready Engineering
+*Why governance is the prerequisite, not the obstacle.*
+
+10. From Document Control to Information Governance
+
+    Metadata, structure, and provenance as the foundation for
+    machine-usable engineering information.
+```
