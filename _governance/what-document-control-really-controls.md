@@ -3,7 +3,6 @@ title: "What Does Document Control Really Manage? 90% of People Get It Wrong"
 excerpt: "Document Control is not really about documents. It is about managing the flow, quality, status, and risks of project information."
 ---
 
-# What Does Document Control Really Manage? 90% of People Get It Wrong
 
 ## From Document Control to Information Governance: A New Way to Understand the Value of Document Control
 
