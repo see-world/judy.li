@@ -1,6 +1,3 @@
-Done. Blank line plus indentation keeps each description inside its list item while rendering as its own paragraph.
-
-```markdown
 ---
 title: "Engineering Information Governance"
 excerpt: "From Document Control to Information Governance: a practical
