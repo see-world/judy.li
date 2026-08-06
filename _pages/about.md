@@ -1,12 +1,11 @@
 ---
-title: "About"
+title: "About Me"
 permalink: /about/
 layout: single
 author_profile: true
 toc: true
 ---
 
-# About Me
 
 Hello, I'm Judy Li.
 
