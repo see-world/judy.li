@@ -15,8 +15,8 @@ This series explores how Document Control evolves into Engineering Information G
 
 ## Phase 1: Cognitive Reframing
 
-- {{ '/governance/what-document-control-really-controls/' | relative_url }}
-- {{ '/governance/why-engineering-projects-lose-control/' | relative_url }}
+- /judy.li/governance/what-document-control-really-controls/
+- /judy.li/governance/why-engineering-projects-lose-control/
 - Why Is the Master Document List (MDL) the Most Important Project Document?
 
 ## Phase 2: Core Competencies
