@@ -2,7 +2,7 @@
 
 **Knowledge Governance • Documentation Leadership • AI Transformation**
 
-A personal thought leadership website focused on the intersection of knowledge governance, engineering information governance, technical documentation, knowledge systems, and AI-enabled information experiences.
+A personal thought leadership website focused on the intersection of knowledge governance, technical documentation, knowledge systems, and AI-enabled information experiences.
 
 Website:
 
