@@ -3,7 +3,7 @@ title: "Engineering Information Governance"
 excerpt: "From Document Control to Information Governance: a practical framework for engineering organizations."
 ---
 
-# Engineering Information Governance
+
 
 Engineering projects are governed by information.
 
