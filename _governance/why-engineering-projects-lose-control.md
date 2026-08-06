@@ -1,366 +1,176 @@
 ---
 title: "Why Engineering Projects Lose Control: The Real Problem Is Usually Information"
-excerpt: "Engineering projects rarely lose control because of engineering failures alone. More often, information loses control first."
+date: 2026-07-30
 categories:
   - Engineering Information Governance
+  - Document Control
+  - EPC
 tags:
-- Information Governance
-- Document Control
-- Revision Control
-- Change Management
-- Project Delivery
+  - Information Governance
+  - Document Control
+  - Revision Control
+  - Change Management
+  - Project Delivery
+excerpt: "Delays, rework, and overruns are usually reported as engineering or supply-chain failures. Trace them back far enough and most began as information failures."
 toc: true
+toc_label: "Contents"
+toc_sticky: true
+series: "Engineering Information Governance"
+series_part: 2
 ---
 
+*Projects run on decisions. Decisions run on information. When information degrades, execution degrades — regardless of how capable the team is.*
 
-## Most Project Failures Begin as Information Failures Long Before They Become Engineering Problems
+## Symptoms Are Not Causes
 
-When engineering projects encounter delays, rework, or cost overruns, the usual explanations sound familiar:
+When a project slips, the explanations are familiar: the schedule was aggressive, suppliers were late, resources were short, requirements changed, coordination broke down.
 
-- The design schedule was too aggressive
-- Suppliers delivered late
-- Resources were insufficient
-- Customer requirements changed
-- Construction coordination failed
+These are usually accurate. They are also usually **symptoms**.
 
-These explanations are often valid.
-
-But they usually describe **symptoms**, not the underlying cause.
-
-If you look closely at many project failures, a different pattern emerges:
-
-> Engineering projects rarely lose control because of engineering failures alone.
->
-> More often, information loses control first.
-
-Projects are built on decisions.
-
-Decisions are built on information.
-
-When information becomes inaccurate, inconsistent, or disconnected, project execution inevitably suffers.
-
----
-
-# Four Information Failures That Cause Most Project Problems
-
-While project failures may appear different on the surface, many can be traced back to one of four information failures.
-
----
-
-## 1. Revision Failure
-
-One of the most common causes of project disruption is version misalignment.
-
-A design team releases:
-
-```text
-IFC Drawing Rev B
-```
-
-However:
-
-- Engineering works from Rev B
-- Procurement references Rev A
-- A supplier manufactures to Rev A
-- Construction uses a printed copy of Rev A
-
-The outcome is predictable:
-
-```text
-Different Versions
-        ↓
-Different Understanding
-        ↓
-Different Execution
-        ↓
-Rework
-```
-
-Notice what happened.
-
-Nobody necessarily made a technical mistake.
-
-The project failed because different stakeholders were working from different versions of reality.
-
-This is why revision control is not an administrative activity.
-
-It is a mechanism for maintaining shared understanding across the project.
-
----
-
-## 2. Change Failure
-
-Every engineering project changes.
-
-Requirements evolve.
-
-Designs mature.
-
-Suppliers introduce alternatives.
-
-Issues are discovered and corrected.
-
-The challenge is not change itself.
-
-The challenge is ensuring that change reaches everyone who needs it.
-
-Consider a typical scenario:
-
-```text
-Engineering Change
-        ↓
-Drawing Updated
-        ↓
-Supplier Not Updated
-        ↓
-Construction Not Updated
-        ↓
-Issue Discovered During FAT
-```
-
-The change may have been reviewed and approved correctly.
-
-The failure occurred because the change was not fully propagated.
-
-A change that does not reach all affected stakeholders is effectively an uncontrolled change.
-
-This is one of the most expensive forms of information failure.
-
-> Change is not the problem.
->
-> Uncontrolled change propagation is the problem.
-
----
-
-## 3. Integration Failure
-
-As projects grow, information naturally becomes fragmented.
-
-Different teams maintain information in different places:
-
-- Personal folders
-- Shared drives
-- Email threads
-- Vendor portals
-- Project repositories
-
-Each team believes it has the information it needs.
-
-The problem is that no one has the complete picture.
-
-The consequences include:
-
-- Duplicate work
-- Conflicting interpretations
-- Delayed decisions
-- Lost knowledge
-
-The project gradually develops multiple information ecosystems instead of a single project-wide information environment.
-
-The result can be summarized as:
-
-```text
-Local Optimization
-        ↓
-Global Confusion
-```
-
-Most organizations recognize technical integration challenges.
-
-Far fewer recognize information integration challenges.
-
----
-
-## 4. Turnover Failure
-
-Many projects appear successful until turnover begins.
-
-Equipment is installed.
-
-Construction is complete.
-
-Commissioning is finished.
-
-Then difficult questions start to surface:
-
-- Which drawing revision is final?
-- Is the as-built package complete?
-- Have all vendor documents been submitted?
-- Are all deviations documented?
-- Which version should operations use?
-
-The situation often becomes:
-
-```text
-Project Complete
-       ↓
-Information Incomplete
-       ↓
-Turnover Delayed
-```
-
-In many cases, the product is ready.
-
-The information is not.
-
-Turnover failures are rarely created at the end of a project.
-
-They are usually the result of poor information governance throughout the project lifecycle.
-
-When information is not controlled continuously, teams are forced to reconstruct it during project closeout.
-
-That reconstruction effort is often slow, expensive, and incomplete.
-
----
-
-# The Pattern Behind Them All
-
-At first glance, these four failures seem unrelated.
-
-But they all follow the same pattern:
-
-```text
-Information Failure
-        ↓
-Execution Failure
-        ↓
-Project Failure
-```
-
-The engineering team may be highly capable.
-
-The suppliers may be experienced.
-
-The project management tools may be modern.
-
-None of that matters if people are working from the wrong information.
+| Reported cause | Frequent underlying cause |
+|---|---|
+| Supplier built the wrong configuration | Superseded revision issued with the purchase order |
+| Rework on site | Approved change never reached the field |
+| Duplicated engineering effort | Same information held in four disconnected locations |
+| Handover delayed after mechanical completion | Final revisions and vendor data never reconciled during execution |
 
 > Execution quality can never exceed information quality.
 
 ---
 
-# Why Information Governance Matters
+## Four Information Failures Behind Most Project Problems
 
-This is where Engineering Information Governance becomes critical.
+Different projects, different sectors — the same four patterns.
 
-Its purpose is not simply to manage documents.
+### 1. Revision Failure
 
-Its purpose is to ensure:
+Engineering issues a drawing at **IFC** (Issued for Construction), Revision B. In practice:
 
 ```text
-The Right Information
-        ↓
-The Right Version
-        ↓
-The Right Time
-        ↓
-The Right People
+Engineering    →  Rev B   (current)
+Procurement    →  Rev A   (ordered against)
+Supplier       →  Rev A   (manufactured to)
+Construction   →  Rev A   (printed copy on site)
 ```
 
-This requires four essential capabilities:
+No one made a technical error. Every party executed correctly against the information they held. That is precisely the problem.
 
-### Single Source of Truth
+Revision control is not clerical work. It is the mechanism that keeps a distributed project operating from one shared reality.
 
-A trusted and authoritative source for project information.
+### 2. Change Failure
 
-### Traceability
+Change is not the problem. **Reach** is.
 
-The ability to understand:
+A change can be correctly raised, reviewed, and approved — and still fail, because approval and propagation are separate activities and only one was completed.
 
-- Who changed what
-- When it changed
-- Why it changed
+```text
+Change approved → Drawing updated → Supplier not notified
+                                  → Site not notified
+                                  → Discovered at FAT (Factory Acceptance Test)
+```
 
-### Change Control
+> A change that does not reach every affected party is, operationally, an uncontrolled change.
 
-Structured mechanisms for managing information evolution.
+### 3. Integration Failure
 
-### Information Flow
+As projects scale, information fragments across personal folders, shared drives, email threads, vendor portals, and multiple repositories.
 
-Ensuring information reaches all affected stakeholders.
+Each team is internally organised. No team holds the complete picture. The result is duplicated work, conflicting interpretations, slow decisions, and knowledge that leaves when individuals rotate off.
 
-When these capabilities are in place, projects become more predictable, scalable, and resilient.
+Most organisations plan carefully for *technical* integration between systems. Far fewer plan for *information* integration between the parties producing them.
+
+### 4. Handover Failure
+
+Many projects look successful until handover begins. Equipment is installed, construction is complete, commissioning is done — then the questions start:
+
+- Which revision is final?
+- Is the as-built package complete?
+- Have all vendor documents been received and verified?
+- Are all deviations documented?
+- Which version does Operations inherit?
+
+Handover failures are not created at handover. They accumulate across the lifecycle and become visible at the end, when the only remaining option is reconstruction — slow, expensive, and rarely complete.
 
 ---
 
-# What Separates Great Projects from Average Projects?
+## The Common Pattern
 
-Many people believe successful projects have:
-
-- Better engineers
-- Better software
-- Larger budgets
-
-These factors matter.
-
-But the real differentiator is often information discipline.
-
-High-performing projects achieve:
+The four failures look unrelated. They share one sequence:
 
 ```text
-One Information Source
-          ↓
-Shared Understanding
-          ↓
-Consistent Execution
-          ↓
-Less Rework
-          ↓
-Faster Delivery
+Information Failure  →  Execution Failure  →  Project Failure
 ```
 
-Average projects often experience:
-
-```text
-Multiple Versions
-          ↓
-Multiple Interpretations
-          ↓
-Inconsistent Execution
-          ↓
-Continuous Correction
-          ↓
-Repeated Rework
-```
-
-What appears to be an engineering problem is frequently an information problem.
+Capable engineers, experienced suppliers, and modern tooling do not interrupt this chain. None of them compensate for people acting on the wrong information.
 
 ---
 
-# Key Takeaway
+## What Information Governance Actually Does
 
-Most engineering organizations focus on improving execution.
+The objective is not document administration. It is ensuring the right information, at the right version, reaches the right people at the right time.
 
-The most mature organizations improve information quality first.
+| Capability | What it guarantees | Failure mode without it |
+|---|---|---|
+| **Single source of truth** | One authoritative reference per deliverable | Competing versions, none provably correct |
+| **Traceability** | Who changed what, when, and why | No basis for audit, claim, or root-cause analysis |
+| **Change control** | Structured evaluation, approval, and release | Silent drift between design intent and built reality |
+| **Information flow** | Confirmed distribution to all affected parties | Approved changes that never reach the field |
 
-Because:
+These are the same four capabilities formalised in **ISO 19650** (information requirements and delivery planning) and **ISO 9001 §7.5** (control of documented information). The vocabulary is newer than the discipline.
+
+---
+
+## A Quick Diagnostic
+
+If several of these are true, information control has already degraded:
+
+- Two teams maintain separate deliverable lists because "the master isn't current."
+- Nobody can state a drawing's current revision without opening a file.
+- Approved changes are communicated primarily by email.
+- Vendor documents are tracked outside the main register.
+- Progress reporting requires manual assembly from multiple sources.
+- The answer to "is this the latest?" is "let me check with the engineer."
+
+Individually, none are critical. Together, they reliably predict rework and delayed handover.
+
+---
+
+## What Separates High-Performing Projects
+
+The usual assumptions are better engineers, better software, larger budgets. Those help. The consistent differentiator is **information discipline**.
+
+```text
+High-performing                  Average
+────────────────                 ────────────────
+One information source           Multiple versions
+Shared understanding             Multiple interpretations
+Consistent execution             Inconsistent execution
+Rework as exception              Continuous correction
+Handover as reconciliation       Handover as reconstruction
+```
+
+What is reported as an engineering problem is frequently an information problem that surfaced in engineering.
+
+---
+
+## Key Takeaway
+
+Most organisations invest in improving execution. The most mature ones improve information quality first, because everything downstream inherits it.
 
 > Engineering scales through information.
 
-As projects become larger, faster, and more interconnected, engineering excellence alone is no longer enough.
+As projects grow larger, faster, and more distributed across parties, engineering capability stops being the constraint. Information control becomes the limiting factor — and when information loses control, the project follows.
 
-The larger the project becomes, the more likely information becomes the limiting factor.
-
-When information loses control, projects follow.
-
-That is why Information Governance is becoming a core engineering capability rather than a support function.
+That is why information governance is becoming a core engineering capability rather than a support function.
 
 ---
 
-# Looking Ahead
+## Next in This Series
 
-Many newcomers see the Master Document List (MDL) as simply a spreadsheet.
+Newcomers see the **Master Document List (MDL)** as a spreadsheet. It is the operational backbone of everything described above.
 
-In reality, it is much more than that.
+Part 2 covers what an MDL is (as distinct from a document register), why it functions as the project's single source of truth, how it underwrites scope, progress, revision control and handover, the six ways MDLs fail, and how to build one that scales.
 
-The MDL is the operational backbone of project information control.
+→ **[Part 3: Why the MDL Is the Most Important Document in a Project](/engineering-information-governance/why-mdl-is-the-most-important-document/)**
 
-In the next article, we'll explore:
-
-- What an MDL really is
-- Why it acts as a project's Single Source of Truth
-- How it supports document control and governance
-- Why many MDLs eventually fail
-- How to build an MDL that scales with project complexity
-
-Because if information is the lifeblood of a project, the MDL is the system that keeps it flowing.
+If information is the lifeblood of a project, the MDL is what keeps it circulating.
