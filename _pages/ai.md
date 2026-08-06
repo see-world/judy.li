@@ -28,15 +28,15 @@ From engineering information governance and knowledge management to AI agents, M
 **Series topics include:**
 
 - Why Information Governance Matters More Than Ever in the Age of AI
-- Why Most Enterprise Knowledge Bases Fail
 - Why Knowledge Management Is Becoming the New Infrastructure for AI
-- From Document-Centric to Knowledge-Centric Organizations
+- From Documents to Intelligence: Rethinking Knowledge in the AI Era
+- Why Most Enterprise Knowledge Bases Fail
 - Why Large Language Models Lack Context
-- AI Will Not Replace Documentation Teams, but It Will Transform Them
 - Why Organizations Need Knowledge Workflows, Not Just Chatbots
-- MCP and the Future of Enterprise Knowledge Systems
+- AI Will Not Replace Documentation Teams, but It Will Transform Them
+- MCP: Connecting AI to Enterprise Knowledge
 - Can AI Agents Become Digital Colleagues?
-- From Search to Discovery: The Future of Knowledge Systems
+- From Search to Discovery: Building the Next Generation of Knowledge Systems
 
 [Read the series]({{ "/ai/from-documents-to-intelligence/" | relative_url }}){: .btn .btn--primary}
 
