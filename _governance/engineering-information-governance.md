@@ -1,3 +1,6 @@
+Done. Blank line plus indentation keeps each description inside its list item while rendering as its own paragraph.
+
+```markdown
 ---
 title: "Engineering Information Governance"
 excerpt: "From Document Control to Information Governance: a practical
@@ -29,46 +32,74 @@ industrial capital projects.
 *Seeing the discipline for what it actually is.*
 
 1. [What Document Control Really Controls](/judy.li/governance/what-document-control-really-controls/)
+
    Not documents — decisions, and the evidence that they were made.
 
 2. [Why Engineering Projects Lose Control](/judy.li/governance/why-engineering-projects-lose-control/)
-   Loss of control is an information failure before it is a
-   schedule or cost failure.
+
+   Loss of control is an information failure before it is a schedule
+   or cost failure.
 
 3. Why the Master Document List Is the Most Important Project Document
+
    The MDL is the project's scope, expressed as deliverables.
 
 ## Phase 2 — Core Competencies
 *The three places control is won or lost.*
 
 4. From Contract to Delivery
+
    Translating contractual documentation obligations into an
    executable deliverables register.
 
 5. Revision Chaos
-   Why revision discipline collapses, and the minimum controls
-   that hold it together.
+
+   Why revision discipline collapses, and the minimum controls that
+   hold it together.
 
 6. FAT Is Not Just Product Acceptance
-   Factory Acceptance Testing as a documentation gate, not
-   only an equipment gate.
+
+   Factory Acceptance Testing as a documentation gate, not only an
+   equipment gate.
 
 ## Phase 3 — Advanced Capabilities
 *Beyond the document, to the asset and the supply chain.*
 
 7. Why As-Built Documentation Becomes a Nightmare
+
    As-built failure is designed in at kickoff, not caused at closeout.
 
 8. From Document Control to Configuration Management
+
    When the object of control shifts from the document to the
    configuration item.
 
 9. Supplier Documentation Management
+
    Governing information you don't produce and can't directly control.
 
 ## Phase 4 — Toward AI-Ready Engineering
 *Why governance is the prerequisite, not the obstacle.*
 
 10. From Document Control to Information Governance
+
     Metadata, structure, and provenance as the foundation for
     machine-usable engineering information.
+```
+
+**One rendering gotcha:** items 1–9 use a 3-space indent (`1. ` is three characters), but item 10 needs a **4-space** indent because `10. ` is four. I've set it that way above. If the indentation is off by one, the description will break out of the list and lose its numbering alignment.
+
+If that fragility bothers you — or if your static site generator is fussy about loose lists — the alternative is to drop list markers entirely:
+
+```markdown
+### 1. [What Document Control Really Controls](/judy.li/governance/what-document-control-really-controls/)
+
+Not documents — decisions, and the evidence that they were made.
+
+### 2. [Why Engineering Projects Lose Control](/judy.li/governance/why-engineering-projects-lose-control/)
+
+Loss of control is an information failure before it is a schedule
+or cost failure.
+```
+
+That gives you headings in the table of contents and each article becomes an anchor link — useful once you're linking between pieces in the series. The tradeoff is a heavier visual rhythm on a page with ten entries.
