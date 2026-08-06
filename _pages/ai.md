@@ -1,6 +1,6 @@
 ---
-title: "AI & Knowledge Systems"
-permalink: /ai-knowledge-systems/
+title: "AI"
+permalink: /ai/
 layout: single
 author_profile: true
 ---
