@@ -15,7 +15,7 @@ As organizations adopt AI, governance becomes increasingly important because AI 
 
 ## Featured Series
 
-### [Engineering Information Governancetion-governance/' | relative_url }}
+### [Engineering Information Governance]({{ "/governance/engineering-information-governance/" | relative_url }})
 
 A practical exploration of how Document Control evolves into Information Governance and becomes a strategic capability for engineering organizations.
 
@@ -28,7 +28,7 @@ A practical exploration of how Document Control evolves into Information Governa
 - Configuration Management
 - Information Governance
 
-{{ '/governance/engineering-information-governance/' | relative_url }}{: .btn .btn--primary}
+[Read the series]({{ "/governance/engineering-information-governance/" | relative_url }}){: .btn .btn--primary}
 
 ---
 
