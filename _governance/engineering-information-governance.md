@@ -37,7 +37,7 @@ industrial capital projects.
    Loss of control is an information failure before it is a schedule
    or cost failure.
 
-3. Why the Master Document List Is the Most Important Project Document
+3. [Why the Master Document List is the Most Valuable Project Document](/judy.li/governance/why-mdl-is-the-most-valuable-document/)
 
    The MDL is the project's scope, expressed as deliverables.
 
