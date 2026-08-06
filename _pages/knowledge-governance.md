@@ -5,7 +5,6 @@ layout: single
 author_profile: true
 ---
 
-# Knowledge Governance
 
 Knowledge Governance focuses on ownership, accountability, quality, lifecycle management, and trust in organizational knowledge.
 
