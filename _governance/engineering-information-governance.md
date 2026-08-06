@@ -83,20 +83,3 @@ industrial capital projects.
     Metadata, structure, and provenance as the foundation for
     machine-usable engineering information.
 ```
-
-**One rendering gotcha:** items 1–9 use a 3-space indent (`1. ` is three characters), but item 10 needs a **4-space** indent because `10. ` is four. I've set it that way above. If the indentation is off by one, the description will break out of the list and lose its numbering alignment.
-
-If that fragility bothers you — or if your static site generator is fussy about loose lists — the alternative is to drop list markers entirely:
-
-```markdown
-### 1. [What Document Control Really Controls](/judy.li/governance/what-document-control-really-controls/)
-
-Not documents — decisions, and the evidence that they were made.
-
-### 2. [Why Engineering Projects Lose Control](/judy.li/governance/why-engineering-projects-lose-control/)
-
-Loss of control is an information failure before it is a schedule
-or cost failure.
-```
-
-That gives you headings in the table of contents and each article becomes an anchor link — useful once you're linking between pieces in the series. The tradeoff is a heavier visual rhythm on a page with ten entries.
