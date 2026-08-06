@@ -1,6 +1,6 @@
 ---
-title: "What Does Document Control Really Manage? 90% of People Get It Wrong"
-date: 2026-08-06
+title: "What Does Document Control Actually Manage? It Is Not Documents"
+date: 2026-07-23
 categories:
   - Engineering Information Governance
 tags:
@@ -9,302 +9,155 @@ tags:
   - EPC
   - Engineering Management
   - Configuration Management
-excerpt: "Document Control is not about managing documents. It is about governing the information that drives engineering decisions and project execution."
+excerpt: "Document Control is not a filing function. Its purpose is to ensure the right information, in the right version, reaches the right people at the right time."
+toc: true
+toc_label: "Contents"
+toc_sticky: true
+series: "Engineering Information Governance"
+series_part: 1
 ---
 
+*Ask ten people what Document Control does and you will get a list of activities. Activities are not a purpose — and confusing the two is why the function is chronically under-valued.*
 
-## From Document Control to Information Governance: A New Way to Understand the Value of Document Control
+## The Standard Answer Is Incomplete
 
-Ask ten people what Document Control does, and most answers will sound similar:
+The usual description of Document Control: numbering files, maintaining registers, distributing drawings, archiving records.
 
-- Managing documents
-- Numbering files
-- Maintaining registers
-- Distributing drawings
-- Archiving records
+None of that is wrong. All of it describes *what the function does*, not *what it is for*.
 
-On the surface, they're not wrong.
+| What people see | What it actually delivers |
+|---|---|
+| Numbering documents | A unique, permanent identity for every piece of engineering information |
+| Maintaining a register | A defensible statement of what the project owes and where each item stands |
+| Distributing drawings | Confirmed delivery of the correct version to every party acting on it |
+| Archiving records | Evidence that survives audit, dispute, and 30 years of asset operation |
 
-These activities are part of the job.
-
-But they are not the purpose of the job.
-
-The real purpose of Document Control is much bigger.
-
-> Document Control is not about managing documents.
->
-> It is about managing information.
-
-And in engineering organizations, information is what drives execution.
+> Document Control does not manage documents. It governs the information that drives engineering decisions.
 
 ---
 
-# Documents Are Not the Asset
+## Documents Are Containers. Information Is the Asset.
 
-Most engineering projects produce thousands of documents:
+A project produces thousands of drawings, specifications, procedures, reports, manuals, and vendor documents. Considerable effort goes into managing those files.
 
-- Drawings
-- Specifications
-- Procedures
-- Reports
-- Manuals
-- Vendor documents
+But the PDF has no value. What has value is what it carries: design intent, technical requirements, interface definitions, dimensions, configuration.
 
-Many organizations spend significant effort managing these documents.
+This distinction is not academic. It determines what the function is optimised for:
 
-However, documents themselves are not valuable.
+- Manage **documents**, and success looks like a tidy repository.
+- Manage **information**, and success looks like every party executing from the same, current, correct basis.
 
-The information inside them is.
-
-Consider a drawing.
-
-The value is not the PDF file.
-
-The value is the engineering information it contains:
-
-- Design intent
-- Technical requirements
-- Interfaces
-- Dimensions
-- Configurations
-
-The same applies to specifications, reports, and procedures.
-
-Documents are simply containers.
-
-Information is the asset.
+Only the second one affects project outcomes.
 
 ---
 
-# How Projects Actually Operate
+## A Project Is an Information System
 
-Engineering projects are often viewed as a sequence of activities:
+Projects are normally drawn as a sequence of phases:
 
 ```text
-Requirements
-      ↓
-Design
-      ↓
-Procurement
-      ↓
-Manufacturing
-      ↓
-Construction
-      ↓
-Commissioning
-      ↓
-Acceptance
+Requirements → Design → Procurement → Manufacturing → Construction → Commissioning → Acceptance
 ```
 
-But another view is equally important.
-
-Projects are also information systems.
-
-Every stage depends on receiving the correct information:
+Underneath that runs a second, more fundamental loop — and it repeats thousands of times:
 
 ```text
-Information
-      ↓
-Decision
-      ↓
-Execution
-      ↓
-Outcome
+Information  →  Decision  →  Execution  →  Outcome
 ```
 
-When information is accurate and controlled, execution becomes predictable.
-
-When information is inconsistent or outdated, problems follow.
+Every phase transition is an information handoff. When the information is accurate and controlled, execution is predictable. When it is stale or contradictory, the phase still completes — just incorrectly.
 
 ---
 
-# The Three Core Missions of Document Control
+## Three Core Missions
 
-## 1. Establish a Single Source of Truth
+### 1. Establish a Single Source of Truth
 
-One of the biggest risks in any project is competing versions of information.
+The most common failure mode in engineering projects is competing versions of the same information: the email copy, the shared-drive copy, the personal copy, the system copy.
 
-For example:
+Each is internally plausible. None is provably authoritative. Teams then execute from different versions of reality, and no one is at fault, because there was never an agreed reference.
 
-- Email version
-- Shared-drive version
-- Personal copy
-- System version
+Document Control's first mission is to make one source authoritative — and to make every other copy visibly a copy.
 
-When different teams rely on different sources, confusion becomes inevitable.
+### 2. Ensure Traceability
 
-Document Control helps ensure that everyone works from the same approved information.
+Every deliverable should answer, without investigation:
 
-The goal is simple:
+- Who produced it, reviewed it, and approved it
+- What changed, when, and why
+- Which revision is current, and which are superseded
+
+Without this, accountability dissolves, compliance cannot be demonstrated, and disputes are argued from recollection rather than record.
+
+### 3. Control Information Flow
+
+Requirements, drawings, and specifications change continuously. Change is normal and is not the problem.
+
+The problem is **reach**. A revision that is approved but never reaches procurement, the supplier, or the site is not a controlled change — it is a latent defect with an approval signature on it.
+
+Governing that flow across the full lifecycle is the third mission, and the one most often left unowned.
+
+---
+
+## What Failure Looks Like
 
 ```text
-One Project
-
-↓
-
-One Source of Truth
+Wrong Information  →  Flawless Execution  →  Wrong Outcome
 ```
 
----
+This is the sequence that makes information failures expensive and hard to diagnose. The team performed correctly. The process was followed. The result is still wrong, and the cost is absorbed as rework, delay, or an acceptance dispute.
 
-## 2. Ensure Traceability
-
-Every engineering decision should be traceable.
-
-Teams should always be able to answer questions such as:
-
-- Who created this document?
-- Who reviewed it?
-- Who approved it?
-- Why was it changed?
-- Which version is current?
-
-Without traceability:
-
-- Accountability decreases
-- Compliance becomes difficult
-- Project risk increases
-
-Traceability builds trust in information.
+Root-cause analyses frequently stop at "coordination issue." The actual cause is usually that two parties held different information and neither had reason to doubt it.
 
 ---
 
-## 3. Control Information Flow
+## The Maturity Curve
 
-Engineering projects change constantly.
+The function has evolved through four stages. Most organisations sit at Stage 2 while believing they are at Stage 3.
 
-Drawings change.
+| Stage | Focus | Question it answers | Typical artifacts |
+|---|---|---|---|
+| **1. Document Filing** | Storage and retrieval | *Where is the file?* | Folder structures, naming conventions |
+| **2. Document Control** | Revision control, approval, distribution | *Which version is current, and who has it?* | Registers, transmittals, review codes |
+| **3. Configuration Management** | Baselines and change integrity | *Does the documentation match the built asset?* | Baselines, change registers, as-built reconciliation |
+| **4. Information Governance** | Information quality, flow, traceability, reuse | *Can we trust the information our decisions rest on?* | Information delivery plans, data-linked deliverables, CDE-native registers |
 
-Specifications change.
+The shift from Stage 2 to Stage 4 is not a software upgrade. It is a change in what the function is held accountable for — from *storing information correctly* to *guaranteeing information is trustworthy at the point of use*.
 
-Requirements change.
-
-The challenge is not the change itself.
-
-The challenge is making sure the change reaches everyone who needs it.
-
-A design revision that never reaches procurement, construction, or suppliers becomes a project risk.
-
-This means Document Control is fundamentally responsible for governing information flow across the project lifecycle.
+This is the same progression formalised in **ISO 9001 §7.5** (control of documented information) and **ISO 19650** (information requirements and delivery planning). The standards are recent. The discipline is not.
 
 ---
 
-# When Information Fails, Projects Fail
+## Where Does Your Project Sit?
 
-Many project issues can be traced back to information failures.
+Answer honestly:
 
-Consider a simple scenario:
+- Can you state the current revision of any deliverable without opening a file or calling an engineer?
+- Does every approved change have evidence of receipt by every affected party?
+- Does the register reconcile exactly with the repository?
+- Are vendor documents under the same control as internal documents?
+- Can you produce a scope-versus-delivered position in under an hour?
 
-```text
-Wrong Information
-
-↓
-
-Correct Execution
-
-↓
-
-Wrong Outcome
-```
-
-The team may execute perfectly.
-
-But if they are using outdated or incorrect information, the result will still be wrong.
-
-This is why projects experience:
-
-- Rework
-- Delays
-- Cost overruns
-- Acceptance issues
-
-The root cause is often not technical capability.
-
-It is information control.
+Consistent "no" answers indicate Stage 1–2, regardless of what system is deployed.
 
 ---
 
-# The Evolution of Document Control
+## Key Takeaway
 
-The role of Document Control has evolved significantly.
-
-### Stage 1: Document Filing
-
-Focus on:
-
-- Storage
-- Filing
-- Retrieval
-
----
-
-### Stage 2: Document Control
-
-Focus on:
-
-- Revision control
-- Approval workflows
-- Distribution management
-
----
-
-### Stage 3: Configuration Management
-
-Focus on:
-
-- Baselines
-- Engineering changes
-- Configuration integrity
-
----
-
-### Stage 4: Information Governance
-
-Focus on:
-
-- Information quality
-- Information flow
-- Traceability
-- Risk management
-- Knowledge reuse
-
-This is where leading organizations are heading.
-
-The focus shifts from managing files to governing information.
-
----
-
-# Key Takeaway
-
-Many people see Document Control as an administrative function.
-
-I see it differently.
+Document Control is routinely classified as administrative support. That classification is a mis-scoping of the role.
 
 > Document Control is information governance for engineering execution.
 
-Its purpose is not to manage documents.
+Its purpose is to ensure the right information, in the right version, reaches the right people at the right time — because that is the precondition for every downstream control: progress measurement, change management, claim defence, and handover.
 
-Its purpose is to ensure that the right information reaches the right people, at the right time, in the right version.
-
-And as engineering organizations continue to scale, that capability becomes increasingly important.
-
-Because projects do not run on documents.
-
-Projects run on information.
+Projects do not run on documents. They run on information.
 
 ---
 
-## Next Article
+## Next in This Series
 
-# Why Engineering Projects Lose Control: The Real Problem Is Usually Information
+If Document Control exists to govern information, the obvious question is what happens when it does not.
 
-If Document Control is about managing information, what happens when information is not managed properly?
+Part 2 examines the four information failures behind most delays, rework, and overruns — revision failure, change-propagation failure, integration failure, and handover failure — and why each one surfaces as an engineering problem long after it started as an information problem.
 
-In the next article, we'll explore four common information failures that cause delays, rework, and project confusion:
-
-- Revision Chaos
-- Change Propagation Failure
-- Information Silos
-- Turnover Breakdown
-
-Because many project failures start as information failures long before they become engineering problems.
+→ **[Part 2: Why Engineering Projects Lose Control — The Real Problem Is Usually Information](/governance/why-engineering-projects-lose-control/)**
