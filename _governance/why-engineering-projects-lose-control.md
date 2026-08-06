@@ -116,7 +116,7 @@ The objective is not document administration. It is ensuring the right informati
 | **Change control** | Structured evaluation, approval, and release | Silent drift between design intent and built reality |
 | **Information flow** | Confirmed distribution to all affected parties | Approved changes that never reach the field |
 
-These are the same four capabilities formalised in **ISO 19650** (information requirements and delivery planning) and **ISO 9001 §7.5** (control of documented information). The vocabulary is newer than the discipline.
+These are the same four capabilities formalized in **ISO 19650** (information requirements and delivery planning) and **ISO 9001 §7.5** (control of documented information). The vocabulary is newer than the discipline.
 
 ---
 
@@ -171,6 +171,6 @@ Newcomers see the **Master Document List (MDL)** as a spreadsheet. It is the ope
 
 Part 2 covers what an MDL is (as distinct from a document register), why it functions as the project's single source of truth, how it underwrites scope, progress, revision control and handover, the six ways MDLs fail, and how to build one that scales.
 
-→ **[Part 3: Why the MDL Is the Most Important Document in a Project](/engineering-information-governance/why-mdl-is-the-most-important-document/)**
+→ **[Part 3: Why the MDL Is the Most Important Document in a Project](/governance/why-mdl-is-the-most-important-document/)**
 
 If information is the lifeblood of a project, the MDL is what keeps it circulating.
