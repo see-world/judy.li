@@ -3,6 +3,8 @@ title: "Why Engineering Projects Lose Control: The Real Problem Is Usually Infor
 excerpt: "Engineering projects rarely lose control because of engineering failures alone. More often, information loses control first."
 toc: true
 ---
+## How Information Failures Silently Become Delays, Rework, And Cost Overruns
+---
 
 Engineering project reviews often identify familiar causes of failure:
 
