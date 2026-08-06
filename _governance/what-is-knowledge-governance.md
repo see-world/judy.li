@@ -3,7 +3,7 @@ title: "What Is Knowledge Governance?"
 excerpt: "Understanding the foundations of Knowledge Governance and why it is critical for AI-ready organizations."
 ---
 
-# What Is Knowledge Governance?
+
 
 Knowledge Governance provides the structures, responsibilities, processes, and controls that ensure organizational knowledge remains:
 
