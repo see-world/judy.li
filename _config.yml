@@ -80,7 +80,7 @@ defaults:
       author_profile: true
       toc: true
       read_time: true
-      share: true
+      share: false
       related: true
   
   # Governance
@@ -91,7 +91,7 @@ defaults:
       layout: single
       author_profile: true
       toc: true
-      share: true
+      share: false
   
   # Ideas
   - scope:
@@ -101,6 +101,7 @@ defaults:
       layout: single
       author_profile: true
       toc: true
+      share: false
   
   # Frameworks
   - scope:
@@ -110,6 +111,7 @@ defaults:
       layout: single
       author_profile: true
       toc: true
+      share: false
   
   # AI
   - scope:
@@ -119,6 +121,7 @@ defaults:
       layout: single
       author_profile: true
       toc: true
+      share: false
   
   # Pages
   - scope:
@@ -127,6 +130,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: false
 
 # Permalinks
 permalink: /:year/:month/:day/:title/
