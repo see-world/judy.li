@@ -2,16 +2,19 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Knowledge Governance"
+  - title: "Governance"
     url: /knowledge-governance/
+ 
+  - title: "Content"
+    url: /content/
+
 
   - title: "Knowledge Systems"
     url: /knowledge-systems/
 
-  - title: "AI & Knowledge"
-    url: /ai-knowledge-systems/
+  - title: "AI"
+    url: /ai/
 
-  - title: "Frameworks"
-    url: /frameworks/
+ 
 
 
