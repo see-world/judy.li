@@ -39,7 +39,7 @@ The answer already exists. It was agreed at signature, distributed across severa
 
 > Document Control does not begin with documents. It begins with obligations.
 
-Articles [1](/engineering-information-governance/what-does-document-control-actually-manage/) and [2](/engineering-information-governance/why-engineering-projects-lose-control/) established that projects run on information rather than documents, and that most execution failures begin as information failures. [Article 3](/engineering-information-governance/why-mdl-is-the-most-important-document/) established the Master Document List as the instrument of control. This article addresses what comes before the MDL — and determines whether it is correct.
+Articles [1](/governance/what-does-document-control-actually-manage/) and [2](/governamce/why-engineering-projects-lose-control/) established that projects run on information rather than documents, and that most execution failures begin as information failures. [Article 3](/governance/why-mdl-is-the-most-important-document/) established the Master Document List as the instrument of control. This article addresses what comes before the MDL — and determines whether it is correct.
 
 ---
 
