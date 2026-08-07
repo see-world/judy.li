@@ -161,7 +161,7 @@ The value runs both ways: the trace defends against scope creep by making additi
 
 > **Key Takeaway:** Good MDLs are extracted from obligations, not reconstructed from memory.
 
-For the register's full field structure and baselining discipline, see [Part 3](/engineering-information-governance/why-mdl-is-the-most-important-document/). This article stops where the register is derived.
+For the register's full field structure and baselining discipline, see [Part 3](/governance/why-mdl-is-the-most-important-document/). This article stops where the register is derived.
 
 ---
 
@@ -240,7 +240,7 @@ Missing Deliverables → Late Discovery → Project Delay
 
 ## From Tracking to Delivery Confidence
 
-[Part 1](/engineering-information-governance/what-does-document-control-actually-manage/) set out a four-stage maturity curve. Obligation-derived delivery planning is what the upper stages look like *before any document exists*.
+[Part 1](/governance/what-does-document-control-actually-manage/) set out a four-stage maturity curve. Obligation-derived delivery planning is what the upper stages look like *before any document exists*.
 
 | Question the function can answer | Maturity stage |
 |---|---|
