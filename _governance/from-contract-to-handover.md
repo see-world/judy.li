@@ -262,9 +262,7 @@ The most successful projects understand this instinctively. They do not manage d
 
 ## Next in This Series
 
-Article 2 identified revision failure as one of four information failures. The next article treats it as an engineering problem in its own right — because on large projects, revision control does not fail through carelessness. It fails through scale.
-
-Part 5 covers:
+Even a perfectly derived MDL cannot protect a project if versions spiral out of control. The next article examines:
 
 - Revision, version, and status — three concepts routinely conflated, with different owners
 - Why concurrent revision streams emerge and why they are sometimes legitimate
