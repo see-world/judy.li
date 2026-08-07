@@ -21,15 +21,13 @@ series_part: 5
 
 ## It Happens on Well-Run Projects
 
-Consider a project that has done everything correctly.
-
-There is a contractually derived numbering standard. There is an approved revision procedure, issued and acknowledged. Every document moves through an enforced workflow in a common data environment. Transmittals are logged, sequenced, and reconciled monthly. The quality system passed its most recent surveillance audit with no findings against document control.
+Consider a project that has done everything correctly: a contractually derived numbering standard, an approved revision procedure, an enforced workflow in a common data environment, transmittals logged and reconciled monthly, and a surveillance audit passed with no findings against document control.
 
 Eighteen months in, a supplier fabricates a skid to a superseded revision. The rework costs six weeks and a seven-figure sum.
 
-The investigation finds no breach. The revision was issued correctly. The transmittal was sent to the right party on the right date. The receipt was logged. The vendor's document controller filed it. Nobody was careless, and no clause of the procedure was violated.
+The investigation finds no breach. The revision was issued correctly, transmitted to the right party on the right date, and the receipt was logged. Nobody was careless. No clause was violated.
 
-This is the observation that needs explaining, and negligence does not explain it. Nor does training, nor software, nor a stricter procedure — the project already had all three.
+Negligence does not explain this. Nor does training, software, or a stricter procedure — the project already had all three.
 
 > **Key Takeaway:** If revision chaos only affected undisciplined projects, it would be a training problem. It affects disciplined ones, which makes it a design problem.
 
@@ -37,7 +35,7 @@ This is the observation that needs explaining, and negligence does not explain i
 
 ## Three Concepts, One Field
 
-Most revision failures begin with a definitional collapse. Three distinct concepts are routinely recorded in a single field.
+Most revision failures begin with a definitional collapse: three distinct concepts recorded in a single field.
 
 | | Question it answers | Changes when | Visible to | Owner |
 |---|---|---|---|---|
@@ -45,7 +43,7 @@ Most revision failures begin with a definitional collapse. Three distinct concep
 | **Revision** | Which issued state is this? | Formal issue | Every party | Document Control |
 | **Status** | What may this be used for? | Review outcome | Every party | Approver / Client |
 
-These are orthogonal. A single revision contains many versions. A single revision may carry different statuses at different points in its life.
+These are orthogonal. A single revision contains many versions and may carry different statuses over its life.
 
 ```text
 Rev B  ├─ v1  draft
@@ -57,69 +55,64 @@ Rev C  ├─ v1  comment incorporation
        └─ v2  →  ISSUED as Rev C, status IFA
 ```
 
-Collapse these into one field and the project loses the ability to state what a document is *for* — which is the only question that matters to the person about to act on it.
+Collapse them into one field and the project loses the ability to state what a document is *for* — the only question that matters to the person about to act on it. The collapse fails in two directions.
 
-The collapse fails in two directions.
+**Versions leak outward.** An engineer emails "v3, for information" because a formal issue would take four days. That file now circulates with no revision identity, no status, and no transmittal — and will be quoted back eight months later with no record it was ever sent.
 
-**Versions leak outward.** An engineer emails "v3, for information" to a vendor because a formal issue would take four days. That file is now in circulation with no revision identity, no status, and no transmittal. It will be quoted back to the project eight months later, and there will be no record that it was ever sent.
+**Revisions do not bump.** A document is corrected and reissued under the same number because "it was only a typo." Two documents now share one identity. This is the most corrosive failure in the set: every downstream control — transmittals, registers, approvals, audits — assumes a revision number uniquely identifies a content state. Once that breaks, the entire traceability chain silently stops working while continuing to appear intact.
 
-**Revisions do not bump.** A document is corrected and reissued under the same revision number, because "it was only a typo in the note block." Two different documents now share one identity. This is the most corrosive failure in the set, because every downstream control — transmittals, registers, approvals, audits — assumes that a revision number uniquely identifies a content state. Once that assumption is broken, the entire traceability chain silently stops working while continuing to appear intact.
+One convention worth stating once: alpha revisions (A, B, C) before first approval, numeric (0, 1, 2) after, transitioning at first issue for construction. Whichever applies, it comes from the contract's identity rules — see [Part 4](/engineering-information-governance/document-control-begins-at-the-contract/).
 
-One convention worth stating once: alpha revisions (A, B, C) before first approval, numeric (0, 1, 2) after, with the transition at first issue for construction. Conventions vary by sector and client. Whichever applies, it is not chosen by preference — it comes from the contract's identity rules, as covered in [Part 4](/engineering-information-governance/document-control-begins-at-the-contract/).
-
-> **Key Takeaway:** A document can have many versions inside one revision, and one revision can hold different statuses over time. One field cannot carry three meanings.
+> **Key Takeaway:** One field cannot carry three meanings. Version, revision, and status answer different questions and have different owners.
 
 ---
 
 ## Why the State Space Explodes
 
-The reason revision chaos is universal on large projects is arithmetic, not behaviour.
+Revision chaos is universal on large projects because of arithmetic, not behaviour.
 
-Every issued revision creates copies, and every copy persists until something actively removes it. The population of document states in existence at any moment is approximately:
+Every issued revision creates copies, and every copy persists until something actively removes it. The population of document states at any moment is approximately:
 
 ```text
 States = Documents × Issued Revisions × Holders
 ```
 
-Illustrative figures, not empirical:
+Illustrative, not empirical:
 
 | Project scale | Documents | Revisions | Parties | Total states | Current | Superseded |
 |---|---|---|---|---|---|---|
 | Mid-size | 5,000 | 4 | 12 | 240,000 | 60,000 | 180,000 |
 | Large EPC | 50,000 | 5 | 40 | 10,000,000 | 2,000,000 | 8,000,000 |
 
-The ratio of superseded to current is `(R−1) : 1`. At five revisions, **four out of every five copies in existence are wrong.**
+The ratio of superseded to current is `(R−1) : 1`. At five revisions, **four of every five copies in existence are wrong** — not through error, but because they were legitimately replaced and never disappeared.
 
-Two consequences follow, and both are counterintuitive.
+Two consequences follow, both counterintuitive:
 
-**Correctness is the minority state.** Document control is not maintaining an orderly system against occasional disorder. It is holding back a growing majority. The default trajectory of an uncontrolled project is not drift — it is saturation.
+- **Correctness is the minority state.** Control is not maintaining order against occasional disorder; it is holding back a growing majority. The default trajectory is not drift — it is saturation.
+- **Parties multiply faster than documents.** Adding a subcontractor adds a full copy of the entire population. A 50,000-document project with eight parties is more controllable than a 15,000-document project with forty.
 
-**Parties multiply faster than documents.** Adding a subcontractor adds a full copy of the entire relevant population. This is why chaos scales with organisational count more aggressively than with document count, and why a 50,000-document project with eight parties is more controllable than a 15,000-document project with forty.
+[Part 2](/engineering-information-governance/why-engineering-projects-lose-control/) described four parties holding four different revisions of one drawing. That is not an anecdote about a bad project. It is the expected output of the arithmetic.
 
-[Part 2](/engineering-information-governance/why-engineering-projects-lose-control/) described four parties holding four different revisions of the same drawing. That scenario is not an anecdote about a badly run project. It is the expected output of the arithmetic above, and it will occur on any project that does not actively counteract it.
-
-> **Key Takeaway:** Revision chaos is not a deviation from the normal state. At scale it *is* the normal state, and control is what is imposed on top of it.
+> **Key Takeaway:** At scale, revision chaos *is* the normal state. Control is what is imposed on top of it.
 
 ---
 
 ## Some Concurrency Is Legitimate
 
-The obvious response — permit only one live revision — is wrong, and projects that attempt it either fail or drive the concurrency underground.
+The obvious response — permit only one live revision — is wrong. Projects that attempt it either fail or drive concurrency underground.
 
 Multiple live revisions are frequently correct:
 
-| Situation | Revision in use | Revision in development | Why both are valid |
+| Situation | In use | In development | Why both are valid |
 |---|---|---|---|
-| Phased construction | C — IFC, Area 1 | D — IFR, Area 2 | Different physical scope, both live |
-| Contractual freeze | C — client-approved | E — design progressed | Delta is a pending variation, not yet instructed |
-| Vendor review cycle | 2 — approved | 3 — vendor internal | Not yet formally submitted |
-| Long-lead procurement | B — ordered against | D — current design | Changing the order would trigger a claim |
+| Phased construction | C — IFC, Area 1 | D — IFR, Area 2 | Different physical scope |
+| Contractual freeze | C — approved | E — progressed | Delta is a pending variation |
+| Vendor review cycle | 2 — approved | 3 — vendor internal | Not yet submitted |
+| Long-lead procurement | B — ordered against | D — current design | Changing it triggers a claim |
 
-In each case, suppressing the parallel revision would either stop work or conceal a commercial position. The concurrency is not a defect.
+Suppressing the parallel revision would either stop work or conceal a commercial position. The concurrency is not a defect.
 
-What makes it dangerous is when it is undeclared. A recipient holding Rev C needs to know whether it is current, frozen for contractual reasons, superseded for their area but valid for another, or simply out of date. That distinction is not carried by the revision number. It is carried by status.
-
-Which is why the three-field separation in the previous section is load-bearing rather than pedantic: **status is the mechanism that makes legitimate concurrency safe.** Without it, every parallel revision looks identical to an error.
+It becomes dangerous only when undeclared. A recipient holding Rev C needs to know whether it is current, frozen, superseded for their area but valid elsewhere, or simply out of date. The revision number does not carry that distinction. Status does — which is why the three-field separation is load-bearing, not pedantic: **status is what makes legitimate concurrency safe.**
 
 > **Key Takeaway:** The failure is not concurrency. It is undeclared concurrency.
 
@@ -127,75 +120,67 @@ Which is why the three-field separation in the previous section is load-bearing 
 
 ## Supersession Is an Action, Not a Consequence
 
-Issuing Rev C is a creation event. Retiring Rev B is a destruction event.
-
-Almost every project performs the first and assumes the second follows by implication. It does not. Issuing a new revision does not remove the old one from anywhere it already exists — it only adds a competitor.
+Issuing Rev C is a creation event. Retiring Rev B is a destruction event. Almost every project performs the first and assumes the second follows by implication. It does not — issuing a new revision only adds a competitor.
 
 After Rev C is issued, Rev B is still:
 
-- Printed and pinned to the wall of a site cabin
-- Attached to a purchase order issued three months ago
-- Cached in a vendor's local folder behind a firewall
+- Printed and pinned in a site cabin
+- Attached to a purchase order sent three months ago
+- Cached in a vendor's folder behind a firewall
 - Incorporated by reference into an approved test procedure
 - Sitting inside a transmittal PDF in forty inboxes
 
-None of these are reached by issuing Rev C. Each requires a separate, deliberate act of retirement.
+None are reached by issuing Rev C. Each requires a deliberate act of retirement.
 
 Two actions are routinely conflated, and the conflation is expensive:
 
-| | Meaning | Replacement available | Urgency |
+| | Meaning | Replacement | Urgency |
 |---|---|---|---|
 | **Supersession** | A later revision exists | Yes | Routine |
-| **Withdrawal** | This document is wrong — stop using it | No | Immediate |
+| **Withdrawal** | This document is wrong — stop | No | Immediate |
 
-A withdrawal communicated as a supersession is how superseded information stays in active use. The notification arrives looking like the twenty routine supersession notices received that month, carries no urgency signal, and is filed rather than acted upon. The recipient behaves entirely reasonably and continues working from a document the project knows to be defective.
+A withdrawal communicated as a supersession is how defective information stays in use. It arrives looking like the month's twenty routine supersession notices, carries no urgency signal, and is filed rather than acted upon.
 
-**The last mile.** Control ends at the boundary of the controlled system. The moment a document is downloaded, printed, or attached to an email, it is outside that boundary and no longer subject to any of it. Mature projects do not pretend otherwise. They maintain controlled-copy registers with named holders, watermark issued copies with expiry conditions, and periodically verify recall — accepting that the last mile is managed by administration rather than by system.
+**The last mile.** Control ends at the system boundary. The moment a document is downloaded, printed, or attached, it is a frozen snapshot immune to every later revision. Mature projects manage this explicitly — controlled-copy registers with named holders, watermarks with expiry, and periodic recall verification — accepting that the last mile is administration, not system.
 
-> **Key Takeaway:** A revision that has been issued but not retired has not been replaced. It has been duplicated.
+> **Key Takeaway:** A revision issued but not retired has not been replaced. It has been duplicated.
 
 ---
 
 ## Who Is Allowed to Create Rev D?
 
-Revision authority is assumed to be self-evident. On multi-party projects it frequently is not.
+Revision authority is assumed self-evident. On multi-party projects it is not.
 
 | Document type | Where authority is ambiguous |
 |---|---|
-| Vendor document | The vendor revises to Rev 3; the EPC contractor adds a cover sheet and issues it as Rev C. One document, two identities, two revision sequences |
-| Client-commented | Do client markups constitute a revision, or only the contractor's response to them? |
-| Interface document | Two contractors on either side of a battery limit, both believing they hold the pen |
-| Third-party certified | The certifying body reissues a certificate without notifying the contractor holding the register |
+| Vendor document | Vendor revises to Rev 3; EPC adds a cover sheet and issues Rev C — one document, two identities |
+| Client-commented | Do client markups create a revision, or only the response? |
+| Interface document | Two contractors either side of a battery limit, both holding the pen |
+| Third-party certified | The certifier reissues without notifying the register holder |
 
-The rule is unambiguous even where practice is not: **exactly one party holds revision authority for any given document, and that party is named on the MDL.**
+The rule is unambiguous even where practice is not: **exactly one party holds revision authority per document, named on the MDL.** This extends [Part 3](/engineering-information-governance/why-mdl-is-the-most-important-document/)'s requirement to name an individual, not a department — ownership of content and authority over identity are different rights, and both need naming.
 
-This extends [Part 3](/engineering-information-governance/why-mdl-is-the-most-important-document/)'s requirement that every register line names an individual rather than a department. Ownership of content and authority to change identity are different rights, and both need naming.
-
-> **Key Takeaway:** Where two parties can both create Rev D, two Rev Ds will eventually exist — and no procedure will detect it, because both are procedurally correct.
+> **Key Takeaway:** Where two parties can both create Rev D, two Rev Ds will eventually exist — and no procedure will catch it, because both are procedurally correct.
 
 ---
 
 ## Mechanisms That Actually Hold
 
-Principles are not sufficient here. Every project already agrees that revisions should be controlled. What separates projects that hold from projects that do not is a small set of specific mechanisms, each defeating a specific failure.
+Every project agrees revisions should be controlled. What separates those that hold is a set of specific mechanisms, each defeating a specific failure.
 
 | Mechanism | Failure it prevents |
 |---|---|
-| **Single issue point** — nothing leaves the project except through Document Control | Versions leaking outward as informal issues |
-| **Revision as identity, not attribute** — the revision forms part of the document's name, not a metadata field that can be edited | Two documents sharing one identity |
-| **Pull, not push** — distribute a reference that resolves to current; never attach the artifact | A snapshot copy created at every hop |
-| **Supersession as an explicit transaction** — requiring acknowledgement, not merely notification | Superseded revisions remaining in silent circulation |
+| **Single issue point** — nothing leaves except through Document Control | Versions leaking outward |
+| **Revision as identity, not attribute** — part of the name, not an editable field | Two documents sharing one identity |
+| **Pull, not push** — distribute a reference that resolves to current | A snapshot copy at every hop |
+| **Supersession as an explicit transaction** — requiring acknowledgement | Superseded revisions in silent circulation |
 | **Declared purpose on every live revision** | Undeclared concurrency |
 | **Controlled-copy register** — a named holder for every copy outside the system | Unrecallable last-mile copies |
-| **Withdrawal as a distinct, escalated event** | Defective documents filed rather than destroyed |
+| **Withdrawal as a distinct, escalated event** | Defective documents filed, not destroyed |
 
-The push-versus-pull point deserves expansion, because it is where most projects unknowingly choose the losing option.
+The push-versus-pull choice is where most projects unknowingly pick the losing option. Push attaches the document to the notification: it scales linearly with parties and fails silently — a recipient who never opens the email keeps working from what they hold, and the project has a receipt proving they were told. Pull sends a reference that resolves to current: always correct, but requires connectivity and the discipline not to save local copies. The workable answer is **pull for the artifact, push for the notification** — tell people something changed, make them return to the source to get it. The reverse guarantees proliferating snapshots.
 
-Push distribution attaches the document to the notification. It scales linearly with the number of parties, works reliably at small scale, and fails silently at large scale — a recipient who does not open the email continues working from what they already hold, and the project has a receipt proving they were told. Pull distribution sends a reference that resolves to whatever is current at the moment of access. It always returns the correct revision, but requires connectivity and the discipline not to save local copies.
-
-The workable configuration is **pull for the artifact, push for the notification** — the recipient is actively told that something changed, and must return to the source to obtain it. The reverse arrangement, which is the common one, guarantees a proliferating population of snapshots.
-
-**Metrics**, extending the register-versus-repository variance introduced in Part 3:
+**Metrics**, extending Part 3's register-versus-repository variance:
 
 ```text
 Superseded copies in circulation     Controlled-copy register, unconfirmed
@@ -204,13 +189,15 @@ Undeclared concurrency               Live revisions with no stated purpose
 Identity collisions                  One revision number, two content states
 ```
 
-The last of these should be zero. Any non-zero value indicates that the traceability chain has been broken somewhere and is no longer trustworthy anywhere.
+Identity collisions should be zero. Any non-zero value means the traceability chain is broken somewhere and trustworthy nowhere.
+
+> **Key Takeaway:** Revision control at scale is not stricter habits. It is a system that does not depend on any individual.
 
 ---
 
 ## Where Revision Control Stops
 
-Revision control operates on one document at a time. It can confirm that a document is the current issued state. It cannot detect that a set of individually-current documents contradict each other.
+Revision control operates on one document at a time. It can confirm a document is current. It cannot detect that a set of individually-current documents contradict each other.
 
 ```text
 P&ID              Rev D   current   ✓
@@ -220,33 +207,33 @@ Loop diagrams     Rev C   current   ✓
         Every document correct. Configuration incoherent.
 ```
 
-Every check passes. Every register line is accurate. And the control philosophy described by the Cause & Effect matrix no longer matches the instrumentation shown on the P&ID, because Rev D of the P&ID added two transmitters and nothing propagated.
+Every check passes, every register line is accurate — and the Cause & Effect matrix no longer matches the P&ID, because Rev D added two transmitters and nothing propagated.
 
-This is precisely the boundary [Part 1](/engineering-information-governance/what-does-document-control-actually-manage/) identified as Stage 3 — Configuration Management, which asks *"does the documentation match the built asset?"* rather than *"is this document current?"* The second question is answerable by revision control. The first is not.
+This is the boundary [Part 1](/governance/what-does-document-control-actually-manage/) identified as Stage 3 — Configuration Management, which asks *"does the documentation match the built asset?"* rather than *"is this document current?"* Revision control answers the second. It cannot answer the first.
 
-The mechanism that keeps a set coherent is change propagation, and that is the subject of Part 6.
+The mechanism that keeps a set coherent is change propagation — the subject of Part 6.
 
-> **Key Takeaway:** Perfect revision control on every document does not produce a coherent configuration. It produces a coherent set of documents that may still contradict each other.
+> **Key Takeaway:** Perfect revision control produces a coherent set of documents that may still contradict each other.
 
 ---
 
 ## If You Are Already Mid-Project
 
-Most readers are not starting a project. Recovery is possible, but only forward — attempting to re-baseline history consumes more effort than it recovers. In order of cost, cheapest first:
+Most readers are not starting fresh. Recovery is possible, but only forward — re-baselining history costs more than it recovers. Cheapest first:
 
-1. **Separate the three fields before correcting any data.** Version, revision, status. Until they are structurally distinct, remediation writes better data into a structure that cannot hold it.
-2. **Inventory live revisions and force a purpose declaration.** Every revision currently in circulation must state why it is live and for what. This is the fastest correction available and requires no system change.
-3. **Build a controlled-copy register from today forward.** Do not attempt retrospective reconstruction of who holds what. Register new issues, and let the historical population age out.
-4. **Convert distribution to pull for new issues only.** Leave historical transmittals untouched. Changing distribution mode retroactively creates more confusion than it resolves.
-5. **Audit identity collisions.** Same revision number, different content. This is the only item on the list worth a full sweep — the count will be small, the consequences are disproportionate, and each instance quietly invalidates every downstream record that references it.
+1. **Separate the three fields before correcting any data.** Until version, revision, and status are structurally distinct, remediation writes better data into a structure that cannot hold it.
+2. **Inventory live revisions and force a purpose declaration.** The fastest correction available; no system change required.
+3. **Build a controlled-copy register from today forward.** Do not reconstruct history — register new issues and let the old population age out.
+4. **Convert distribution to pull for new issues only.** Leave historical transmittals untouched.
+5. **Audit identity collisions.** Same number, different content. The only item worth a full sweep — small in count, disproportionate in consequence, quietly invalidating every record that references it.
 
-> **Key Takeaway:** Do not attempt to re-baseline history. Contain the forward population and let the superseded one age out.
+> **Key Takeaway:** Do not re-baseline history. Contain the forward population and let the superseded one age out.
 
 ---
 
 ## Conclusion
 
-Return to the project in the first section. The procedure was not breached. The procedure was written for a state space it does not address.
+Return to the project in the first section. The procedure was not breached. It was written for a state space it does not address.
 
 ```text
 Documents × Revisions × Parties
@@ -256,7 +243,7 @@ Superseded copies always outnumber current ones
 Control is containment, not prevention
 ```
 
-A revision procedure describes how a document moves from one issued state to the next. It says nothing about the several hundred thousand copies of previous states already distributed across forty organisations — which is where the failure actually occurs.
+A revision procedure describes how a document moves from one issued state to the next. It says nothing about the hundreds of thousands of copies of previous states already distributed across forty organisations — which is where the failure actually occurs.
 
 Two questions are frequently treated as one:
 
@@ -264,7 +251,7 @@ Two questions are frequently treated as one:
 >
 > *"Are we all working from the same reality?"* is a governance question.
 
-Revision control answers the first reliably. Only the mechanisms in this article — single issue point, revision as identity, pull distribution, explicit supersession, declared purpose, controlled copies, escalated withdrawal — begin to answer the second.
+Revision control answers the first reliably. Only the mechanisms in this article answer the second.
 
 The projects that stay coherent at scale are not the ones with stricter procedures. They are the ones that accepted the arithmetic and designed against it.
 
@@ -277,4 +264,3 @@ Revision control ensures each document is current. It cannot ensure the set is c
 Part 6 examines change propagation — how one approved engineering change ripples across drawings, specifications, vendor documents, test procedures, and the handover dossier, and why the approval is the easy part.
 
 **→ [Part 6: Change Propagation — Why Approval Is the Easy Part](/governance/change-propagation-why-approval-is-the-easy-part/)**
-````
