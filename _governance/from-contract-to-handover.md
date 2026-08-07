@@ -20,17 +20,11 @@ series_part: 4
 ---
 
 
-*By the time the first drawing exists, a project's information obligations have already been fixed — negotiated, priced, and made binding. Document Control that starts at the first document has inherited decisions it never saw.*
-
-
-
 ## The Wrong Assumption
 
 Ask most engineers, planners, or even document controllers when Document Control begins, and the answer is almost always the same: *when the first document is created.*
 
-It is an understandable assumption. The function only becomes visible once drawings, specifications, and reports start moving through review cycles. But by then, the decisions that matter most — what the project must deliver, and in what form — have already been made, or left dangerously undefined.
-
-The reality is different:
+It is an understandable assumption. The function becomes visible only once drawings and specifications start moving through review cycles. But by the time the first document appears, the decisions that determine what the project must deliver have already been made — or left undefined.
 
 ```text
 Contract Agreed
@@ -48,199 +42,205 @@ A mature Document Control function is not a document-tracking function. It is a 
 
 Consider a straightforward question:
 
-> How does a project actually know which documents it is required to deliver?
+> How does this project know which documents it is required to deliver?
 
-In practice, the answers scatter across the team — and each one quietly defers accountability to someone else.
+In practice the answers scatter — and each one defers accountability to someone else.
 
-| Asked | Typical answer | What it means |
+| Asked | Typical answer | What it actually means |
 |---|---|---|
-| Engineering | "It'll become clear as the design develops" | Scope discovered, not planned |
-| Procurement | "We have a vendor document list" | Partial and disconnected |
+| Engineering | "It'll become clear as the design develops" | Scope will be discovered, not planned |
+| Procurement | "We have a vendor document list" | Partial, package-level, disconnected |
 | Client | "It's all in the requirements" | True — and never consolidated by anyone |
-| Document Control | "I'll figure it out from what comes in" | The register reconstructs the past, not the future |
+| Document Control | "I'll figure it out from what comes in" | The register will reconstruct the past, not control the future |
 
 Four different answers to one question is not a communication problem. It is a **governance gap** — and it opens long before the first drawing is issued.
 
-Every project document exists for one reason: to satisfy an obligation the project has already accepted. Document Control does not begin with documents. It begins with obligations.
+---
+
+## Three Things Are Fixed Before the First Document
+
+At the moment a contract is agreed, three things are set simultaneously. They are rarely extracted with equal rigour.
+
+| What is fixed | Who normally extracts it | Consequence if nobody does |
+|---|---|---|
+| **What we owe** — the deliverable scope | Document Control, eventually | Scope is discovered during execution rather than planned |
+| **How we must deliver** — the rules governing every document | Usually nobody | Systemic rework at first review, or at handover |
+| **What it's worth** — the cost of discharging it | The bid team, for everything except information | Unpriced obligation absorbed as margin |
+
+Most projects extract the first. [Part 3](/governance/why-mdl-is-the-most-valuable-document/) covered what to do with it once you have.
+
+This article is about the other two — because they are where front-end failures become systemic rather than local.
 
 ---
 
-## Obligations Are Priced Before They Are Binding
+## What We Owe: Extraction Is Real Work
 
-The conventional view is that documentation requirements arrive with the contract. The accurate view is that they arrive at tender — and are either priced or silently absorbed.
+No contract contains a section titled "everything you must deliver." Obligations are distributed across commercial conditions, scope descriptions, technical specifications, quality requirements, coordination procedures, and completion criteria. Some are explicit. Many are implied by a standard referenced in a single line.
 
-```text
-Tender          →  Obligations are priced (or mispriced)
-Award           →  Obligations become binding
-Mobilisation    →  Obligations must be interpreted
-First document  →  Obligations are already immovable
-```
+Two things are consistently true in practice.
 
-Bid teams price steel, equipment, and construction risk with rigour. Information obligations are routinely treated as overhead — a document controller and a software licence. Yet several standard requirements carry real cost that never reaches the estimate:
+**The sources disagree.** One document specifies a numbering convention; another assumes a different one. One states a review period; another states a longer one. These conflicts are cheap to resolve in writing during mobilisation and expensive to resolve at the first rejected submission.
 
-| Obligation | Where the cost hides |
-|---|---|
-| Review and resubmission cycles | Every rejection burns engineering hours and float |
-| Client-nominated systems | Parallel platforms, licences, manual re-keying |
-| Native files and models | IP exposure, format conversion, extra tooling |
-| Approval gates before release | Review duration sits on the critical path |
-| Documentation-linked payments | Cash flow depends on a turnaround you don't control |
+**Nobody has read all of it.** Engineering reads the technical sections. Commercial reads the conditions. Procurement reads the vendor requirements. Obligations fall into the overlap and stay there.
 
-None of these are exotic. All are cheaper to price than to discover.
+This reframes the first responsibility of the function. The question is not *"what documents currently exist?"* but *"what information are we obligated to deliver?"* Tracking what exists is administration. Governing what must exist is delivery control.
 
-> **Key Takeaway:** An unpriced information obligation is a margin leak that surfaces, two years later, as a schedule problem.
-
-The consequence is organisational: if Document Control is not consulted before commitments are made, the function spends the entire project discharging obligations it never had the chance to assess.
-
----
-
-## The Scope Is Scattered, Not Stated
-
-No contract contains a section titled "everything you must deliver." The requirements are distributed — across commercial conditions, scope descriptions, technical specifications, quality requirements, and completion criteria. Some are explicit. Many are implied by a standard referenced in a single line.
-
-Two things are consistently true.
-
-**The sources disagree.** One document specifies a numbering convention; another assumes a different one. One sets a review period; another sets a longer one. These conflicts are cheap to resolve during mobilisation, and expensive to resolve at the first rejected submission.
-
-**Nobody has read all of it.** Engineering reads the technical sections. Commercial reads the conditions. Procurement reads the vendor requirements. The overlap is where obligations go missing.
-
-This reframes the first responsibility of the function. The starting question is not *"What documents exist?"* but *"What are we obligated to deliver?"* Tracking what exists is administration. Governing what must exist is delivery control.
-
-> **Key Takeaway:** If no single named individual has read the contract end to end, the project does not know its own information scope.
-
----
-
-## The Information Delivery Chain
-
-Every deliverable flows through the same chain, from commitment to handover:
-
-```text
-Contract → Requirements → Deliverables → MDL → Submittals → Approvals → Handover
-```
-
-Each link depends on the one before it, and a weak link propagates:
-
-- Misread **requirements** → the wrong deliverables are planned.
-- Incomplete **deliverables** → an incomplete MDL.
-- A wrong **MDL** → submittals and approvals track the wrong scope.
-- Any failure → **handover** cannot be complete.
-
-Delivery breakdowns rarely have a single dramatic cause. They accumulate from a weak link early in the chain — usually a missing translation between what was promised and what the project plans to produce.
-
-> **Key Takeaway:** The MDL is not invented by Document Control. It is *derived* from commitments already made.
-
----
-
-## Translating Obligations into Deliverables
-
-The bridge between an agreement and a working delivery plan is a deliberate translation — it does not emerge on its own.
-
-**Step 1 — Identify the obligations.** Work through every source, and for each obligation ask: what must be submitted, when, in what form, and to whom.
-
-**Step 2 — Convert obligations into deliverables.** An obligation is a promise; a deliverable is the document that discharges it.
-
-| What the project has agreed to | The deliverable that discharges it |
-|---|---|
-| Demonstrate the design basis before detail design | Design Basis Report |
-| Prove electrical protection is coordinated | Protection coordination study |
-| Hand over an operable, maintainable asset | O&M dossier |
-| Observe a defined review and resubmission cycle | *No deliverable* — a constraint on MDL dates |
-
-**Step 3 — Make the trace explicit.** Every register entry carries a reference back to the obligation that created it.
+The output is a trace:
 
 ```text
 Obligation → Deliverable → MDL Line
 ```
 
-Two rules make the trace defensible:
+Two rules make it defensible rather than decorative:
 
-1. **Every MDL line traces to an obligation.** A deliverable with no source is either internal scope or unpriced work — and that should be a deliberate decision.
-2. **Every obligation maps to a deliverable, or a recorded decision that none is required.** Unmapped obligations are exactly how handover gaps are created.
+1. **Every register line traces to an obligation.** A deliverable with no traceable source is either internal scope or unpriced work — and that should be a decision, not an accident.
+2. **Every obligation maps to a deliverable, or to a recorded decision that none is required.** Unmapped obligations are precisely how handover gaps are created.
 
-The value runs both ways: the trace defends against scope creep by making additions visible *as* additions, and prevents the project from silently absorbing obligations it never priced.
+The trace works commercially in both directions: it makes scope additions visible *as* additions, and it prevents the project from quietly absorbing obligations that were never priced.
 
-> **Key Takeaway:** Good MDLs are extracted from obligations, not reconstructed from memory.
-
-For the register's full field structure and baselining discipline, see [Part 3](/governance/why-mdl-is-the-most-valuable-document/). This article stops where the register is derived.
+> **Key Takeaway:** If no single named individual has read the contract end to end, the project does not know its own information scope.
 
 ---
 
-## The Obligations That Are Not Deliverables
+## How We Must Deliver: The Rules Nobody Extracts
 
-This is the part most projects omit. Agreements do not only specify *which* documents must be delivered — they specify rules *about* documents: how they are identified, formatted, exchanged, reviewed, and retained. These produce no MDL lines. They configure the entire information system, and cannot be retrofitted without touching every document already produced.
+This is the part most projects omit entirely.
+
+Contracts do not only specify *which* documents must be delivered. They specify rules *about* documents — how they are identified, formatted, exchanged, reviewed, and retained. These generate no register lines. They configure the entire information system, and they cannot be retrofitted without touching every deliverable already produced.
 
 | Rule type | What it governs | Cost of discovering it late |
 |---|---|---|
-| **Identity** | Numbering, metadata, tag linkage | Renumbering the register; every cross-reference breaks |
-| **Form** | File formats, native files, signatures | Bulk conversion or full resubmission |
-| **Exchange** | Nominated platform, transmittal protocol | A parallel trail with no contractual standing |
-| **Review** | Status codes, durations, resubmission limits | Schedule and status mapping built on wrong assumptions |
-| **Retention** | Access obligations after completion | Unbudgeted long-term custodianship |
+| **Identity** | Numbering conventions, required metadata, asset and tag linkage | Renumbering or re-attributing the whole register; every cross-reference breaks |
+| **Form** | File formats, native deliverables, language, signature and certification | Bulk conversion, or full resubmission of approved documents |
+| **Exchange** | Nominated platform, transmittal protocol, distribution obligations | A parallel email trail with no contractual standing |
+| **Review** | Review code definitions, durations, resubmission limits | Schedule built on wrong assumptions; status mapping errors across all reporting |
+| **Retention** | Availability and access obligations after completion | Unbudgeted long-term custodianship |
 
 > **Key Takeaway:** A deliverable submitted in the wrong form has not been submitted.
 
-The sequence is strict, and inverting it is the most common front-end failure:
+The rules impose a strict sequence, and inverting it is the most common front-end failure:
 
 ```text
-Rules → Numbering & Metadata Standard → MDL → Documents
+Rules → Numbering & metadata standard → MDL → Documents
 ```
 
-So the output of this phase is not the MDL alone. It is three artifacts, in order:
+Part 3 established that document numbering is the primary key of the entire information system and cannot be changed mid-project. This is where that key comes from. The convention is not chosen by preference — it is derived from what has been agreed, then extended to cover what has been left open.
+
+Which means the front end produces three artifacts, in this order:
 
 | # | Artifact | Question it answers |
 |---|---|---|
-| 1 | Document Control Plan | How will information be produced, reviewed, exchanged, handed over? |
-| 2 | Numbering & Metadata Standard | How is every deliverable identified? |
+| 1 | Document Control Plan / Information Delivery Plan | How will information be produced, reviewed, exchanged, and handed over? |
+| 2 | Numbering and Metadata Standard | How is every deliverable identified and classified? |
 | 3 | Baselined MDL | What is owed, by whom, by when? |
 
-Building the register first is the common shortcut — and it guarantees rework of all three.
+Building the register first is the common shortcut. It guarantees rework of all three.
 
 ---
 
-## Flow-Down: Binding Vendors to the Same Terms
+## What It's Worth: Obligations Are Priced Before They Are Binding
 
-An EPC contractor holds obligations for information it does not produce. Vendor and subcontractor deliverables are typically 40–60% of the total register — obligations that cannot be discharged unless they have been passed through, back to back, into every subcontract and purchase order.
+Documentation requirements do not arrive with the contract. They arrive at tender, and are either priced or silently absorbed.
+
+```text
+Tender          →  Obligations are priced (or mispriced)
+Award           →  Obligations become binding
+Mobilisation    →  Obligations must be interpreted and structured
+First document  →  Obligations are already immovable
+```
+
+Bid teams price steel, equipment, labour, and construction risk with rigour. Information obligations are treated as overhead — a document controller and a licence. Several standard requirements carry real cost that never reaches the estimate:
+
+| Obligation category | Where the cost hides |
+|---|---|
+| Review and resubmission cycles | Every rejection consumes engineering hours and float, often without limit |
+| Client-nominated systems and metadata | Parallel platforms, manual re-keying, licences outside your own toolset |
+| Native files and model deliverables | IP exposure, format conversion, additional tooling |
+| Approval gates before release | Review duration sits directly on the critical path |
+| Long-term retention and access | Custodianship extending years past completion |
+| Documentation-linked payments | Cash flow depends on a turnaround you do not control |
+
+None of these are exotic. All are standard across EPC, power, and infrastructure work. All are cheaper to price than to discover.
+
+> **Key Takeaway:** An unpriced information obligation is a margin leak that presents, two years later, as a schedule problem.
+
+The organisational implication is direct: if Document Control is absent from tender review, the function will spend the project discharging commitments it never had the chance to assess.
+
+---
+
+## Obligations You Hold But Do Not Produce
+
+An EPC contractor is accountable for information it does not create. Vendor and subcontractor deliverables typically represent 40–60% of the total register.
 
 ```text
 Client Agreement → EPC Obligations → PO / Subcontract VDRL → Vendor Deliverables
 ```
 
-The Vendor Document Requirements List (VDRL) is the flow-down instrument. It must carry not only *what* the vendor delivers, but the same rules the contractor is bound by — identity, form, exchange, and review.
+The Vendor Document Requirements List (VDRL, or SDRL in some sectors) is the flow-down instrument — and it must carry the rules as well as the deliverables. Identity, form, exchange, and review apply to vendors exactly as they apply to the contractor.
 
-Three timing failures recur:
+Three failures recur, all of them timing failures:
 
-- **Flow-down happens after award.** The vendor is asked to meet requirements never priced into their quote; compliance becomes negotiation.
-- **The VDRL is generic.** A template is attached without tailoring — generating deliverables nobody needs, omitting ones the client requires.
-- **MDL entries are created on first submission, not at award.** Until the vendor submits, the deliverable does not exist in the register — so it cannot be reported late, and its absence stays invisible until handover.
+- **Flow-down after award.** The vendor is asked to meet requirements never priced into their quotation. Compliance becomes a negotiation instead of an obligation.
+- **Generic VDRL.** A template attached without tailoring, generating deliverables nobody needs while omitting ones the client requires.
+- **Register entries created on first submission.** Until the vendor submits something, the deliverable does not exist in the register — so it cannot be reported as late, and its absence stays invisible until handover.
 
-> **Key Takeaway:** Every purchase order requiring documentation should generate MDL entries at award — not when the vendor eventually submits.
+> **Key Takeaway:** Every purchase order requiring documentation should generate register entries at award, not at first submission.
 
 ---
 
-## Why Deliverables Get Missed
+## The Cost Curve
 
-When a project discovers late that a deliverable was never produced, the instinct is to blame execution. The root cause is almost always earlier and quieter. What makes these failures expensive is **detection lag**.
-
-| Failure pattern | Where it surfaces | Cost to correct |
-|---|---|---|
-| **Interpretation gap** — teams read requirements differently; no one reconciles them | Mid-execution scope dispute | High — weak commercial position |
-| **Late involvement** — Doc Control joins after scope is fixed | First client submission rejected | Moderate — rework of early deliverables |
-| **Wrong baseline** — register built from existing docs or a precedent project | Handover gap analysis | Very high — no float left |
-| **Vendor blind spot** — requirements never flowed down into POs | Vendor data gap at handover | Highest — no remedy against the vendor |
-
-Each is cheap to prevent, invisible for months, and costly once visible.
+Every deliverable travels the same path from commitment to handover:
 
 ```text
-Missing Deliverables → Late Discovery → Project Delay
+Contract → Requirements → Deliverables → MDL → Submittals → Approvals → Handover
+   │            │              │           │         │            │          │
+ promise    obligation      artifact    record     event     acceptance    proof
 ```
 
-> **Key Takeaway:** Most missed deliverables are not execution failures. They are interpretation failures that took months to become visible.
+The arrows look like process steps. They are **translations** — each restating the same commitment in a more executable form. Nothing is added downstream. The scope was fixed at the contract; every subsequent link can only preserve or degrade what it received.
+
+**Loss compounds.** Take six translations, each performed at 95% fidelity — a requirement dropped here, a format assumption lost there, a review rule quietly misread. The figure is illustrative, not empirical:
+
+```text
+0.95 ⁶  ≈  0.74
+```
+
+A chain in which every handoff looks acceptable delivers roughly three-quarters of the committed scope. No single link fails an audit. The shortfall appears at the end, as a handover gap with no schedule left to absorb it.
+
+**The chain also runs backward.** Forward, it plans; backward, it proves. Every high-stakes question a project faces is a backward trace — *was this in scope? who approved this revision? why did review take 42 days?* A chain never built forward cannot be traced backward.
+
+This is why front-end failures are expensive: not because they are severe, but because of **detection lag**.
+
+| Failure | Where it surfaces | Cost of correction |
+|---|---|---|
+| Teams read the requirements differently; nobody reconciles them | Mid-execution scope dispute | High — commercial exposure, weak position |
+| Document Control mobilised after scope and schedule are fixed | First submission rejected on form or numbering | Moderate — rework of early deliverables |
+| Register copied from a precedent project | Handover gap analysis | Very high — no float remaining |
+| Rules never extracted | First formal review cycle, or handover | Very high — systemic rework |
+| No flow-down to purchase orders | Vendor data gap at handover | Highest — no remedy against the vendor |
+
+> **Key Takeaway:** Most missed deliverables are not execution failures. They are requirement-interpretation failures that took months to become visible.
 
 ---
 
-## From Tracking to Delivery Confidence
+## If You Are Already Mid-Project
 
-Obligation-derived delivery planning is what the upper stages look like *before any document exists*.
+Most readers cannot return to award. The cost curve is still rising, which makes partial recovery worth more than none. In order of cost, cheapest first:
+
+1. **Extract the rules before touching the register.** They are still enforceable and are probably still being breached. This is the highest return for the least effort.
+2. **Freeze numbering; map rather than renumber.** Retrospective renumbering breaks every cross-reference in the project. A documented mapping table satisfies most client requirements at a fraction of the cost.
+3. **Reconcile the register against the obligations you can evidence.** Not a full extraction — a targeted check on the categories most likely to be missing: statutory, quality records, and handover deliverables.
+4. **Flow down to open POs; negotiate the closed ones.** Every purchase order not yet awarded can still carry a compliant VDRL. Address the awarded ones commercially, before the vendor demobilises.
+5. **Log the gap formally.** A known gap is a commercial position. An unknown gap is a liability that surfaces at handover, when the project has no leverage and no time.
+
+> **Key Takeaway:** Retrofitting is expensive. It is never as expensive as it will be next quarter.
+
+---
+
+## Delivery Confidence
+
+[Part 1](/governance/what-does-document-control-actually-manage/) set out a four-stage maturity curve. Front-end extraction is what the upper stages look like *before any document exists*.
 
 | Question the function can answer | Maturity stage |
 |---|---|
@@ -249,53 +249,52 @@ Obligation-derived delivery planning is what the upper stages look like *before 
 | "Does the documentation match the built asset?" | 3 — Configuration Management |
 | **"Will we discharge what we promised?"** | **4 — Information Governance** |
 
-Only the last question is answerable at award — and only if the translation has been done. It is also the only one the Project Manager, the Commercial Manager, and the client are genuinely asking.
+Only the last question is answerable at award, and only if the extraction has been done. It is also the only one the Project Manager, the Commercial Manager, and the client are genuinely asking.
 
-This is the same discipline formalized by **ISO 19650** as the move from information requirements to a delivery plan, and by **ISO 9001 §7.5** as the control of documented information. The standards describe the destination. The contract sets the route.
-
-> **Key Takeaway:** The objective is not document tracking. It is **delivery confidence**.
+This is the discipline formalised by **ISO 19650** as the progression from exchange information requirements to an information delivery plan, and by **ISO 9001 §7.5** as the control of documented information. The standards describe the destination. The contract determines the route.
 
 ---
 
 ## Conclusion
 
-Document Control does not start when the first document is issued. It starts when obligations are priced, and becomes binding when they are agreed. The logic is unbroken:
+Three things are fixed the moment a contract is agreed: **what we owe, how we must deliver it, and what it is worth.** Extracting only the first produces a register that is structurally correct and operationally unenforceable — right content, wrong rules, unpriced effort.
 
 ```text
 Agreements create obligations
       ↓
 Obligations become deliverables
       ↓
-Deliverables become the MDL
+Rules determine how they must be delivered
       ↓
-The MDL becomes delivery governance
+Price determines whether you can afford to
 ```
 
-Break the first link and everything downstream is guesswork with a register attached. Projects that think in phases discover their documentation gaps at handover. Projects that think in commitments prevent them.
+Projects that think in phases discover their documentation gaps at handover. Projects that think in commitments prevent them.
 
-Document Control is not a support function receiving documents at the end of a workflow. It is the discipline that carries a project's commitments from award all the way to handover. The most successful projects do not manage documents. They manage **commitments** — and let the documents follow.
+The most successful projects understand this instinctively. They do not manage documents. They manage **commitments** — and let the documents follow.
 
 ### First Thirty Days After Award
+
 **What we owe**
 - [ ] All requirement sources assembled and read end to end by a named individual
 - [ ] Conflicts between sources logged and formally resolved with the client
-- [ ] Obligation → deliverable trace drafted, unmapped items explicitly closed out
+- [ ] Obligation → deliverable trace drafted, with unmapped items explicitly closed out
 - [ ] MDL baselined and reconciled against the project schedule
 
 **How we must deliver**
 - [ ] Rules extracted and documented: identity, form, exchange, review, retention
 - [ ] Numbering and metadata standard issued and approved
 - [ ] Document Control Plan issued for client acceptance
-- [ ] VDRL template mandated for flow-down into all purchase orders
+- [ ] VDRL template prepared and mandated for flow-down into all purchase orders
 
 **What it's worth**
-- [ ] Documentation-linked payment milestones flagged to PM and Commercial
+- [ ] Documentation-linked payment milestones identified and communicated to PM and Commercial
 - [ ] Review and resubmission exposure quantified against the engineering budget
 
-
-Complete this before the first deliverable is produced, and the project has information control. Complete it afterwards, and the project has documentation.
+If this is complete before the first deliverable is produced, the project has information control. If it is completed afterwards, the project has documentation.
 
 ---
+
 
 ## Next in This Series
 
@@ -306,4 +305,4 @@ Even a perfectly derived MDL cannot protect a project if versions spiral out of 
 - How superseded information stays in circulation despite formal control
 - Designing revision discipline that survives 50,000 documents and 40 organizations
 
-→ **[Part 5: Why Large Projects Always Fall Into Revision Chaos](/engineering-information-governance/why-large-projects-fall-into-revision-chaos/)**
+→ **[Part 5: Why Large Projects Always Fall Into Revision Chaos](/governance/why-large-projects-fall-into-revision-chaos/)**
