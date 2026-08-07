@@ -1,5 +1,6 @@
 ---
 title: "From Documents To Intelligence"
+permalink: /knowledge-systems/
 excerpt: "From Document Control to Information Governance: a practical
 framework for engineering organizations."
 ---
@@ -18,3 +19,4 @@ framework for engineering organizations."
 
 More to come...
 ---
+
