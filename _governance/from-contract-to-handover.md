@@ -240,7 +240,7 @@ Missing Deliverables → Late Discovery → Project Delay
 
 ## From Tracking to Delivery Confidence
 
-[Part 1](/governance/what-does-document-control-actually-manage/) set out a four-stage maturity curve. Obligation-derived delivery planning is what the upper stages look like *before any document exists*.
+Obligation-derived delivery planning is what the upper stages look like *before any document exists*.
 
 | Question the function can answer | Maturity stage |
 |---|---|
