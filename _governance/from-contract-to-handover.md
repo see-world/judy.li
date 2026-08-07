@@ -1,7 +1,9 @@
 ---
+
 title: "From Contract to Handover: Where Document Control Actually Begins"
 date: 2026-08-13
-categories: Engineering Information Governance
+categories:
+  - Engineering Information Governance
 tags:
   - Document Control
   - Contract Management
@@ -14,6 +16,7 @@ toc_label: "Contents"
 toc_sticky: true
 series: "Engineering Information Governance"
 series_part: 4
+
 ---
 
 
@@ -47,16 +50,16 @@ The conventional view is that documentation requirements arrive with the contrac
 ```text
 Tender        →  Obligations are priced (or mispriced)
 Award         →  Obligations become legally binding
-Mobilisation  →  Obligations must be interpreted and structured
+Mobilization  →  Obligations must be interpreted and structured
 First document →  Obligations are already immovable
 ```
 
-Bid teams price steel, equipment, labour, and construction risk with considerable rigour. Documentation obligations are routinely treated as overhead — a document controller and a licence. Several common clauses carry material cost that never appears in the estimate.
+Bid teams price steel, equipment, labor, and construction risk with considerable rigor. Documentation obligations are routinely treated as overhead — a document controller and a license. Several common clauses carry material cost that never appears in the estimate.
 
 | Clause type | Commercial exposure |
 |---|---|
 | Review period with no cap on resubmission cycles | Unbounded rework; every rejection consumes engineering hours and schedule float |
-| Client-nominated EDMS or CDE with mandated metadata | Parallel systems, manual re-keying, licences, and training outside the contractor's own toolset |
+| Client-nominated EDMS or CDE with mandated metadata | Parallel systems, manual re-keying, licenses, and training outside the contractor's own toolset |
 | Native file and model deliverables | Intellectual property exposure, format conversion, additional tooling |
 | Approval required before fabrication or construction release | Client review duration sits directly on the critical path |
 | Retention and access obligations after completion | Multi-decade custodianship, unbudgeted |
