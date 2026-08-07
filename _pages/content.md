@@ -1,7 +1,9 @@
 ---
 title: "Posts by Tag"
-permalink: /tags/
+permalink: /content/
 layout: tags
 author_profile: true
 ---
 placeholder
+
+---
