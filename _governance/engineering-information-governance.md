@@ -44,7 +44,7 @@ industrial capital projects.
 ## Phase 2 — Core Competencies
 *The three places control is won or lost.*
 
-4. From Contract to Delivery
+4. [From Contract To Handover: Where Document Control Actually Begins ](/judy.li/governance/from-contract-to-handover/)
 
    Translating contractual documentation obligations into an
    executable deliverables register.
