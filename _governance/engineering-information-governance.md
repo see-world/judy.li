@@ -49,7 +49,7 @@ industrial capital projects.
    Translating contractual documentation obligations into an
    executable deliverables register.
 
-5. Revision Chaos
+5. [Why Large Projects Always Fall Into Revision Chaos ](/judy.li/governance/why-large-projects-fall-into-revision-chaos/)
 
    Why revision discipline collapses, and the minimum controls that
    hold it together.
