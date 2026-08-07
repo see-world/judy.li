@@ -161,7 +161,7 @@ The value runs both ways: the trace defends against scope creep by making additi
 
 > **Key Takeaway:** Good MDLs are extracted from obligations, not reconstructed from memory.
 
-For the register's full field structure and baselining discipline, see [Part 3](/governance/why-mdl-is-the-most-important-document/). This article stops where the register is derived.
+For the register's full field structure and baselining discipline, see [Part 3](/governance/why-mdl-is-the-most-valuable-document/). This article stops where the register is derived.
 
 ---
 
@@ -251,7 +251,7 @@ Obligation-derived delivery planning is what the upper stages look like *before 
 
 Only the last question is answerable at award — and only if the translation has been done. It is also the only one the Project Manager, the Commercial Manager, and the client are genuinely asking.
 
-This is the same discipline formalised by **ISO 19650** as the move from information requirements to a delivery plan, and by **ISO 9001 §7.5** as the control of documented information. The standards describe the destination. The contract sets the route.
+This is the same discipline formalized by **ISO 19650** as the move from information requirements to a delivery plan, and by **ISO 9001 §7.5** as the control of documented information. The standards describe the destination. The contract sets the route.
 
 > **Key Takeaway:** The objective is not document tracking. It is **delivery confidence**.
 
@@ -281,11 +281,13 @@ Document Control is not a support function receiving documents at the end of a w
 - [ ] Conflicts between sources logged and formally resolved with the client
 - [ ] Obligation → deliverable trace drafted, unmapped items explicitly closed out
 - [ ] MDL baselined and reconciled against the project schedule
+
 **How we must deliver**
 - [ ] Rules extracted and documented: identity, form, exchange, review, retention
 - [ ] Numbering and metadata standard issued and approved
 - [ ] Document Control Plan issued for client acceptance
 - [ ] VDRL template mandated for flow-down into all purchase orders
+
 **What it's worth**
 - [ ] Documentation-linked payment milestones flagged to PM and Commercial
 - [ ] Review and resubmission exposure quantified against the engineering budget
