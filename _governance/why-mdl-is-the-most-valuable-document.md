@@ -155,3 +155,15 @@ The MDL is not paperwork. It is the ledger of everything a project has promised 
 A well-governed MDL delivers a single source of truth, visible scope, reliable progress measurement, clear accountability, revision control, and contractual defensibility.
 
 Treat it as a living governance asset—owned, maintained, and trusted—and it becomes the most valuable document in the project.
+
+## Next in This Series
+
+
+The MDL is often treated as a document register.
+
+In reality, every item in the MDL originates from a contractual commitment.
+
+Before a project can control documents, it must first understand what information it is obligated to deliver, who requires it, and when it is due.
+
+
+→ **[Part 4: From Contract to Handover: Where Document Control Actually Begins](/governance/from-contract-to-handover/)**
