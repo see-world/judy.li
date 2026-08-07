@@ -9,8 +9,12 @@ tags:
   - Information Governance
   - Project Delivery
 excerpt: "The Master Document List is not a register maintained by Document Control. It is the project's information ledger and the foundation of delivery governance."
+toc: true
+toc_label: "Contents"
+toc_sticky: true
+series: "Engineering Information Governance"
+series_part: 3
 ---
-
 
 ## Without an MDL, There Is No Real Information Control
 
