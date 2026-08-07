@@ -1,10 +1,7 @@
 ---
 title: "From Contract to Handover: Where Document Control Actually Begins"
 date: 2026-08-13
-categories:
-  - Engineering Information Governance
-  - Document Control
-  - EPC
+categories: Engineering Information Governance
 tags:
   - Document Control
   - Contract Management
@@ -18,6 +15,7 @@ toc_sticky: true
 series: "Engineering Information Governance"
 series_part: 4
 ---
+
 
 *By the time the first drawing exists, a project's information obligations have already been fixed — negotiated, priced, and made binding. Document Control that starts at the first document has inherited decisions it never saw.*
 
