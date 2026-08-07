@@ -44,7 +44,7 @@ A mature Document Control function is not a document-tracking function. It is a 
 
 ---
 
-## The Question No One Owns
+## The Question Nobody Can Answer
 
 Consider a straightforward question:
 
@@ -276,16 +276,20 @@ Break the first link and everything downstream is guesswork with a register atta
 Document Control is not a support function receiving documents at the end of a workflow. It is the discipline that carries a project's commitments from award all the way to handover. The most successful projects do not manage documents. They manage **commitments** — and let the documents follow.
 
 ### First Thirty Days After Award
-
+**What we owe**
 - [ ] All requirement sources assembled and read end to end by a named individual
 - [ ] Conflicts between sources logged and formally resolved with the client
 - [ ] Obligation → deliverable trace drafted, unmapped items explicitly closed out
+- [ ] MDL baselined and reconciled against the project schedule
+**How we must deliver**
 - [ ] Rules extracted and documented: identity, form, exchange, review, retention
 - [ ] Numbering and metadata standard issued and approved
 - [ ] Document Control Plan issued for client acceptance
-- [ ] MDL baselined and reconciled against the project schedule
 - [ ] VDRL template mandated for flow-down into all purchase orders
+**What it's worth**
 - [ ] Documentation-linked payment milestones flagged to PM and Commercial
+- [ ] Review and resubmission exposure quantified against the engineering budget
+
 
 Complete this before the first deliverable is produced, and the project has information control. Complete it afterwards, and the project has documentation.
 
@@ -298,6 +302,6 @@ Even a perfectly derived MDL cannot protect a project if versions spiral out of 
 - Revision, version, and status — three concepts routinely conflated, with different owners
 - Why concurrent revision streams emerge and why they are sometimes legitimate
 - How superseded information stays in circulation despite formal control
-- Designing revision discipline that survives 50,000 documents and 40 organisations
+- Designing revision discipline that survives 50,000 documents and 40 organizations
 
 → **[Part 5: Why Large Projects Always Fall Into Revision Chaos](/engineering-information-governance/why-large-projects-fall-into-revision-chaos/)**
