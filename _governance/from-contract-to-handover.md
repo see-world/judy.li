@@ -1,7 +1,7 @@
 ---
 
 title: "From Contract to Handover: Where Document Control Actually Begins"
-date: 2026-08-13
+date: 2026-08-7
 categories:
   - Engineering Information Governance
 tags:
