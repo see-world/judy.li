@@ -1,4 +1,5 @@
 ---
+
 title: "Why Large Projects Always Fall Into Revision Chaos"
 date: 2026-08-20
 last_modified_at: 2026-08-20
@@ -17,6 +18,7 @@ toc_label: "Contents"
 toc_sticky: true
 series: "Engineering Information Governance"
 series_part: 5
+
 ---
 
 ## It Happens on Well-Run Projects
@@ -29,7 +31,7 @@ The investigation finds no breach. The revision was issued correctly, transmitte
 
 Negligence does not explain this. Nor does training, software, or a stricter procedure — the project already had all three.
 
-> **Key Takeaway:** If revision chaos only affected undisciplined projects, it would be a training problem. It affects disciplined ones, which makes it a design problem.
+**Key Takeaway:** If revision chaos only affected undisciplined projects, it would be a training problem. It affects disciplined ones, which makes it a design problem.
 
 ---
 
@@ -63,7 +65,7 @@ Collapse them into one field and the project loses the ability to state what a d
 
 One convention worth stating once: alpha revisions (A, B, C) before first approval, numeric (0, 1, 2) after, transitioning at first issue for construction. Whichever applies, it comes from the contract's identity rules — see [Part 4](/engineering-information-governance/document-control-begins-at-the-contract/).
 
-> **Key Takeaway:** One field cannot carry three meanings. Version, revision, and status answer different questions and have different owners.
+**Key Takeaway:** One field cannot carry three meanings. Version, revision, and status answer different questions and have different owners.
 
 ---
 
@@ -93,7 +95,7 @@ Two consequences follow, both counterintuitive:
 
 [Part 2](/engineering-information-governance/why-engineering-projects-lose-control/) described four parties holding four different revisions of one drawing. That is not an anecdote about a bad project. It is the expected output of the arithmetic.
 
-> **Key Takeaway:** At scale, revision chaos *is* the normal state. Control is what is imposed on top of it.
+**Key Takeaway:** At scale, revision chaos *is* the normal state. Control is what is imposed on top of it.
 
 ---
 
@@ -114,7 +116,7 @@ Suppressing the parallel revision would either stop work or conceal a commercial
 
 It becomes dangerous only when undeclared. A recipient holding Rev C needs to know whether it is current, frozen, superseded for their area but valid elsewhere, or simply out of date. The revision number does not carry that distinction. Status does — which is why the three-field separation is load-bearing, not pedantic: **status is what makes legitimate concurrency safe.**
 
-> **Key Takeaway:** The failure is not concurrency. It is undeclared concurrency.
+**Key Takeaway:** The failure is not concurrency. It is undeclared concurrency.
 
 ---
 
@@ -143,7 +145,7 @@ A withdrawal communicated as a supersession is how defective information stays i
 
 **The last mile.** Control ends at the system boundary. The moment a document is downloaded, printed, or attached, it is a frozen snapshot immune to every later revision. Mature projects manage this explicitly — controlled-copy registers with named holders, watermarks with expiry, and periodic recall verification — accepting that the last mile is administration, not system.
 
-> **Key Takeaway:** A revision issued but not retired has not been replaced. It has been duplicated.
+**Key Takeaway:** A revision issued but not retired has not been replaced. It has been duplicated.
 
 ---
 
@@ -160,7 +162,7 @@ Revision authority is assumed self-evident. On multi-party projects it is not.
 
 The rule is unambiguous even where practice is not: **exactly one party holds revision authority per document, named on the MDL.** This extends [Part 3](/engineering-information-governance/why-mdl-is-the-most-important-document/)'s requirement to name an individual, not a department — ownership of content and authority over identity are different rights, and both need naming.
 
-> **Key Takeaway:** Where two parties can both create Rev D, two Rev Ds will eventually exist — and no procedure will catch it, because both are procedurally correct.
+**Key Takeaway:** Where two parties can both create Rev D, two Rev Ds will eventually exist — and no procedure will catch it, because both are procedurally correct.
 
 ---
 
@@ -191,7 +193,7 @@ Identity collisions                  One revision number, two content states
 
 Identity collisions should be zero. Any non-zero value means the traceability chain is broken somewhere and trustworthy nowhere.
 
-> **Key Takeaway:** Revision control at scale is not stricter habits. It is a system that does not depend on any individual.
+**Key Takeaway:** Revision control at scale is not stricter habits. It is a system that does not depend on any individual.
 
 ---
 
@@ -213,7 +215,7 @@ This is the boundary [Part 1](/governance/what-does-document-control-actually-ma
 
 The mechanism that keeps a set coherent is change propagation — the subject of Part 6.
 
-> **Key Takeaway:** Perfect revision control produces a coherent set of documents that may still contradict each other.
+**Key Takeaway:** Perfect revision control produces a coherent set of documents that may still contradict each other.
 
 ---
 
@@ -227,7 +229,7 @@ Most readers are not starting fresh. Recovery is possible, but only forward — 
 4. **Convert distribution to pull for new issues only.** Leave historical transmittals untouched.
 5. **Audit identity collisions.** Same number, different content. The only item worth a full sweep — small in count, disproportionate in consequence, quietly invalidating every record that references it.
 
-> **Key Takeaway:** Do not re-baseline history. Contain the forward population and let the superseded one age out.
+**Key Takeaway:** Do not re-baseline history. Contain the forward population and let the superseded one age out.
 
 ---
 
@@ -247,9 +249,9 @@ A revision procedure describes how a document moves from one issued state to the
 
 Two questions are frequently treated as one:
 
-> *"Is this document current?"* is a revision question.
->
-> *"Are we all working from the same reality?"* is a governance question.
+*"Is this document current?"* is a revision question.
+
+*"Are we all working from the same reality?"* is a governance question.
 
 Revision control answers the first reliably. Only the mechanisms in this article answer the second.
 
