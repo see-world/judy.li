@@ -1,5 +1,4 @@
 ---
-
 title: "Why Large Projects Always Fall Into Revision Chaos"
 date: 2026-08-20
 last_modified_at: 2026-08-20
